@@ -1,0 +1,1879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031AEFD886553AB0D1EFC22453E9634E /* CMDQueryStringDateTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A9D2798B4586CA0CEEF9F30CB24821 /* CMDQueryStringDateTransformer.h */; };
+		0461D83F59B3D3BCBFDB3D27F9AE906F /* VENRequestDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 390BB396464C2F391A9A7D2FE74D4876 /* VENRequestDecoder.m */; };
+		08B9380DC58832EFB42A53C9C2C12965 /* VENDefines_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA3D0B7FE8B15344B55169FED03D14D /* VENDefines_Internal.h */; };
+		0E8F80CF2F10F4314E203DF350A01557 /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641DDADD1DEBD49955FCF914AED23FD3 /* SSKeychain-dummy.m */; };
+		0EC71C4D8910E1C81766180B052CC3A1 /* NSString+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8078F9AD914011915DD45A1775BCFD /* NSString+VenmoSDK.m */; };
+		0F28F3D91F2052CBDA49EE411301D98D /* VENCreateTransactionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 346241F6AAF0C2B6F96C12D0C5DDD09C /* VENCreateTransactionRequest.h */; };
+		0F493813C9E11D88AFD75194BED64826 /* CMDQueryStringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 715DA579D18A14DF5B548B0340C1AD00 /* CMDQueryStringReader.m */; };
+		0F8738244FE0A6CE695B733A06CBE88D /* VENTransaction+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 738D2AE9BD1AE0C20746D2AC01CEFA40 /* VENTransaction+VenmoSDK.h */; };
+		155AF3C3235A14495864B4D93AA08644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1114098A8CC4384200396BFFFA59EEB6 /* Foundation.framework */; };
+		163297C50ACA0C61CCDD2C11F073A8FB /* VENSession.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8D6A4A6A9CF1F11E35351835D560DB /* VENSession.h */; };
+		16F8F985ECDBA67AF3BCCADCA79E02EB /* VENErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = E54E98F7D274DEE94921FCA9452E2040 /* VENErrors.m */; };
+		1763D726797662820BDE4FADD648B0FB /* CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AA9FA56B9B88A6F68536A5762CF226 /* CMDQueryStringSerialization.h */; };
+		1B9B083988BD1B9C1D4B838130898FEA /* UIDevice+VENCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC063FCA90BB3AD2A328AFDB1C88D3 /* UIDevice+VENCore.h */; };
+		20338C936DD7C1A2EDE40A0A26B560B0 /* VENPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = DA717FA050EE1D1E9F1B3FB696C0B6A0 /* VENPermission.m */; };
+		29A62F1FFA3381F08E4299C3E7A0FE0D /* VENTransactionTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 44513CCBA6BD9243EA25CE94FC422F18 /* VENTransactionTarget.h */; };
+		2EF58F7213E52714F487902F8D824182 /* VENCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FC6B7B0372775AA1ADB987CA48C082 /* VENCore-dummy.m */; };
+		2EFB2C164FCF9C56AB6ECB0525CBC46F /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E54B61A8B1F4C39538E66B121DE2160A /* NSString+MD5Addition.m */; };
+		3347F735BB8887C52EF2538DC65AC2CD /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = AA46FB875FE4379E7B90FF83E4B0D41E /* SSKeychainQuery.h */; };
+		33877562C0CC65D51251801379C5DFA8 /* NSString+CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4078B9B63AD70FDD259DA0C5B1F9AC /* NSString+CMDQueryStringSerialization.m */; };
+		35660BACBAD4EEDD5732714CDF494E18 /* VENUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2358F3B3C388E239E85C05F64A87F993 /* VENUser.m */; };
+		3B56984D316ED4DF9C1E1D67E4D0EBAF /* NSDictionary+VENCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3DD8DAEE28D6486DDDBD1329EB8025 /* NSDictionary+VENCore.m */; };
+		3C9BCEDD5AB2EB3502F46405E1FFAEE3 /* CMDQueryStringNumberTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F67E5623663502CB38C735C0B2CC825A /* CMDQueryStringNumberTransformer.m */; };
+		3DE4ABA4ECF547A8C75942BEB4C0F5F8 /* CMDQueryStringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E781A9D9B1B162A71E32F5DAEC9468 /* CMDQueryStringReader.h */; };
+		4458B321B620BF568981972C018A07EC /* NSError+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E300E275C1F24D4B9A171D8F5EA0038C /* NSError+VenmoSDK.m */; };
+		469932B94149D21733E98E0076DC83CA /* NSURL+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EF1C509E3018B119095FE3B82B16D7 /* NSURL+VenmoSDK.h */; };
+		474A1E66452E6C596E9FD598BC2DF8C2 /* VENTransaction+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF985E55B3D76E7401AA15775A31E55 /* VENTransaction+VenmoSDK.m */; };
+		4ACDD1F7B9FB1B773E826A53B1991187 /* VENHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F184BB828EA3C906AEB62EA8F5B79 /* VENHTTP.m */; };
+		4EC73F00C08D5D271AE27F50416FEB6E /* CMDQueryStringStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EA2246AEAAB41F225E30A840AC2660 /* CMDQueryStringStringTransformer.h */; };
+		4F68D702B742A9BFB0E30CACD650D90F /* NSError+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D2F67DEABBAD49BD1697FADA7FCCC4 /* NSError+VenmoSDK.h */; };
+		5118C1B629D2A9B779B6D1CABC7CBF92 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = FB74AC278C6117DAE4F9FCE88FC98B3F /* SSKeychain.h */; };
+		56699DE234E7469603102F9679C761D6 /* NSString+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 765A53924482104FE0641C2CD3271348 /* NSString+VenmoSDK.h */; };
+		57F1254247F23B1E03E0872CC7952F05 /* VENHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 889C59AEA7D801647CE1984A4C6E5AC6 /* VENHTTP.h */; };
+		5E94335D7BD372CF49267C102169E6CF /* NSError+VENCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A37484257D85F3B69459E5160A595225 /* NSError+VENCore.m */; };
+		5FE9730709FC274BC932EA7D334DFCE9 /* VENTransactionTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 835439CCD8021862B5DF514799A01CD5 /* VENTransactionTarget.m */; };
+		60A213E0B39822D744D57674884B8C1C /* VENCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 416DFD09DA2E39E021372F46E68DE469 /* VENCore.m */; };
+		649D4F3558CA58E982E345E035AA340C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A44D509D4E44481A5AA622EB2EB2AD /* Pods-dummy.m */; };
+		687E296A0F6F1740E88D35071F270F9A /* VENErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 94371E6CDAC91F92CD855B28E336C178 /* VENErrors.h */; };
+		6B6EEC0AABAE55B528C064FBCD56B635 /* CMDQueryStringStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6096EE95591ACA87CC23334A8B43670B /* CMDQueryStringStringTransformer.m */; };
+		6DF16D3BFEB7A8977036365D41ED0699 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A0A2A0384E349A64759F3AF1D8EC67 /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70F4133F45564E1C888048B3D4F205D9 /* VENURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 347DB9349B0ED4C373FD8963904D8647 /* VENURLProtocol.m */; };
+		71EE31FD5F877CD497FCB7EEB22AA0D6 /* CMDQueryStringArrayTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AC73314045B4C6FAA1D0FA93828E55 /* CMDQueryStringArrayTransformer.m */; };
+		7ACEB3577E6EA8471E079884D1797825 /* VENPermissionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CE51BC3EEC1470D396202BBD48003E0F /* VENPermissionConstants.h */; };
+		7AFA3A4B44FE3364A0844566C094753B /* NSURL+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BA269D937BBBC2AFF12D51C4C021CA /* NSURL+VenmoSDK.m */; };
+		7CE2BD660BE8B8A26FBCA91BC83BBD12 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B86E59E7FAD5FD0A28539B19B353E10D /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F2565F57863D61F712AEB9ACD8D7A51 /* NSString+VENCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B710C23FEFFBCAC91C1D6DA3C248F8A8 /* NSString+VENCore.h */; };
+		80729A0974A960CC4977C826130A2EBF /* NSDictionary+VENCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 07395473719BC9B5F7A843E653796A77 /* NSDictionary+VENCore.h */; };
+		831491703698025FEAE5C5463767490B /* CMDQueryStringSerialization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFBA8D1C22E4D8C6B54CF94EA10DAF /* CMDQueryStringSerialization-dummy.m */; };
+		848508311A6AFFE5A2C202B3112CBDE4 /* VENHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F67E1C83288088AD4E2DA72B07894DFD /* VENHTTPResponse.m */; };
+		84B038D51ED7BED60B8DD8667ABFB698 /* VENHMAC_SHA256.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E67D24B93F9E4B5DE4F62849A50269 /* VENHMAC_SHA256.m */; };
+		8796FDDA6C3F9F44CCC3C62A40AEFB67 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 652779A0F25EBAEC03AC4F5CAFD82CF9 /* NSString+MD5Addition.h */; };
+		8B2DF1B412D8EAD0F00230FC9F061B32 /* VENURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC4401825A06411A56C84F2A940E163 /* VENURLProtocol.h */; };
+		8C8471F6CCFE8E47A54B35E463A5813B /* VENTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A08A2691668007817A07CE8C54CE3F0 /* VENTransaction.h */; };
+		91695EDC12345CD9001029A7728E261F /* VENHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E6A58B2DC2881722EA1FB44D24AEC5 /* VENHTTPResponse.h */; };
+		93068F15ABF36B1A937C7D3415BF9B05 /* NSString+VENCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA05DEB5A8C7A74D2F6BCF4F9D1B058 /* NSString+VENCore.m */; };
+		959DCCA2F4481C146A1EEEAE8824DE60 /* NSDictionary+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F18D71A7918D5B8B89CA2A5180A3FCC6 /* NSDictionary+VenmoSDK.m */; };
+		9725A530720A2E236B65B4D39BA7CC7B /* NSError+VENCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 986957A4A1E12F9C7FD67E3255D56E8D /* NSError+VENCore.h */; };
+		9B8FBA7BAE34BCBBA6BDD294D9BB6F5F /* NSDictionary+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 453A2B7B5C1B4DE595F8106193581148 /* NSDictionary+VenmoSDK.h */; };
+		9C1A2888048C0954BCAA53F04EE363AE /* VENUserPayloadKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 6507FAE575EC8EE6A94F018193559028 /* VENUserPayloadKeys.h */; };
+		A73B0900AA6E3FB13753CFBDD13844F9 /* VENTransactionPayloadKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = D88E9798630B4059BC7583FB196B7100 /* VENTransactionPayloadKeys.h */; };
+		A7A3A0511FD3841F1F22CE01A3F48471 /* VENPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 722E12F0C9AA447A3049E5316CBB806B /* VENPermission.h */; };
+		A9BCCFA02F1ADFB1B5271FEA00E3E78D /* VENUser+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B297AB30285D078A9204F0F65C9D38C /* VENUser+VenmoSDK.m */; };
+		A9F09D7947A335925608B3EE1AB60353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1114098A8CC4384200396BFFFA59EEB6 /* Foundation.framework */; };
+		AA25C7C04B7FD7C8C5DB067B57AE8A18 /* CMDQueryStringDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2F74FF5EE9646AC2DC6F8490AA143 /* CMDQueryStringDateTransformer.m */; };
+		ABA1D493B6E29697871C471D7BF1E0D0 /* NSArray+VENCore.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7701D8D591BE54C4F646614C21098 /* NSArray+VENCore.m */; };
+		AD42FB5D46FB87C6659BEB6233F23B8D /* VENBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = AB405A238F93A198AF88A24EE81EDFBD /* VENBase64.m */; };
+		B0BF0EEB42811B1C1836B41DF395550C /* VENBase64_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE406474F13AFDF5F9A60A77F62C13B /* VENBase64_Internal.h */; };
+		B2EAEEA925AABC8036D20E97944D9C25 /* VENCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F5A44B17ED0EE923FD4214DF337DB6 /* VENCore.h */; };
+		B47E1DC5CF2AE73A5D22307DE7CC516D /* NSArray+VENCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B481E1BAD8999CAC81751D0B94F7CD9C /* NSArray+VENCore.h */; };
+		B7FB6CECDBBD9F464BE1E330E175FBFC /* VENRequestDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8A896F7DE02D630153DFD356F3B2EC /* VENRequestDecoder.h */; };
+		B981DAE3CF6E7951BB7BA3A42A7B4684 /* VENTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B3FBFE4F95A0562C73685D19ED4D49 /* VENTransaction.m */; };
+		B9BC712542D304D472631659AA3F5F88 /* Venmo.m in Sources */ = {isa = PBXBuildFile; fileRef = 15966BE609ADC65FE9B4D6938BCD4499 /* Venmo.m */; };
+		BBB6EF0A0485CCB59AA6D2AA09EF2E01 /* CMDQueryStringSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8922ED820735747FFEF1C0A76055B97A /* CMDQueryStringSerialization.m */; };
+		BC5A968814C7854F29A66162F8172B83 /* NSString+CMDQueryStringSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2AF855E3E2FE66A076E72F70A745A1 /* NSString+CMDQueryStringSerialization.h */; };
+		BDCABC3C6B3F27BBB68A9DBD10EA4A34 /* CMDQueryStringArrayTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D046B439EEC3D44A9BD4A21F6BDB60 /* CMDQueryStringArrayTransformer.h */; };
+		C01654A95A1A72E26374600EA1CEAAA8 /* UIDevice+VENCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C10284F2A6C6E8C2000781590D65531D /* UIDevice+VENCore.m */; };
+		C51E3E872831EA47F03881A7E1D87ED9 /* CMDQueryStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E4CE5724D042D3A41753CC4C44F03 /* CMDQueryStringValueTransformer.m */; };
+		C702493380830B12CFBEDF6C05B98B38 /* Venmo.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C414A8E1D967021D64BA4A6070189F /* Venmo.h */; };
+		C7D0597FC97D0A479CD3CB5B4112607F /* VENUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB2162A78023B8273FBE703CC9FE396 /* VENUser.h */; };
+		C89858FB145886DB710FB73448F45776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1114098A8CC4384200396BFFFA59EEB6 /* Foundation.framework */; };
+		CBAFD07C9B13728368926BA4C1468992 /* NSBundle+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B116F629CD980DCD77E9F087AA52FF /* NSBundle+VenmoSDK.h */; };
+		CECE7E5E67AF6DFB2B89E8DE77B55EB4 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A732C44131AD388BF223AFC1B14FC3 /* UIDevice+IdentifierAddition.m */; };
+		D41BFFB92D96D8881A38424E544D0E62 /* CMDQueryStringWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D37A585A0C5B0A3AEEEC6B54CD144 /* CMDQueryStringWriter.m */; };
+		D4B86E84F83D0452728D422A077CF804 /* Venmo-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7909CB3FF28DD584A0FC468A0A04A2 /* Venmo-iOS-SDK-dummy.m */; };
+		D9B28D16D7F52D636E9044A215C531E2 /* VENCreateTransactionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE4A2D9741C408F26A4A11D8A603FF /* VENCreateTransactionRequest.m */; };
+		DD334BEBD54C6B4200386ED62B1BECF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1114098A8CC4384200396BFFFA59EEB6 /* Foundation.framework */; };
+		E27F42DBBA8B5FA31D47796D43B68AC2 /* NSBundle+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD9B78B3F76191FBC8BABA8D17CC8F /* NSBundle+VenmoSDK.m */; };
+		E431BB594AD53322C97FF53A3ECF5B30 /* UIDevice+IdentifierAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F60E36165C1E108DAB3B912DC3AEAB /* UIDevice+IdentifierAddition.h */; };
+		E95651466E8ACED25B28835EF07732B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1114098A8CC4384200396BFFFA59EEB6 /* Foundation.framework */; };
+		EB19179509B443B90060107686B9BB8A /* VENSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DBEDCBF203C9EE3A66C9CFFE1D4433 /* VENSession.m */; };
+		EDFAA16362DFE763369214D6952E5EFD /* VENUser+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 375950E5E8CED5F6CC373F7179993703 /* VENUser+VenmoSDK.h */; };
+		F444F5DBC060C36404F3A423906185C3 /* CMDQueryStringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F54CE5909E6661B606327042E03A39 /* CMDQueryStringValueTransformer.h */; };
+		F5E7D36ED1E4A3E059F252346DE9ADBB /* VENHMAC_SHA256_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D69D20F9EFBE7AA4A460CF4C40BBB67 /* VENHMAC_SHA256_Internal.h */; };
+		F85ADB2BEE8142A90CFE90F2BA9F68DA /* CMDQueryStringNumberTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = F66C5FA122B663369DABB0F491073805 /* CMDQueryStringNumberTransformer.h */; };
+		F8E4C324516DEF57A15FCB65D95CBD1E /* CMDQueryStringWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = A99DCC8262ED0599888C382716E6834F /* CMDQueryStringWriter.h */; };
+		F8E4C8DB5EEAFFD4413F5B139B981CCD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA52187E6FB97920A5057B75ED3DBD6 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105C73F90B3B04887D0DFEFB7A9CBD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C4EDFC103993D2B3F66B7239628793;
+			remoteInfo = CMDQueryStringSerialization;
+		};
+		176DF4090A8775518C496722EADBA39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C4EDFC103993D2B3F66B7239628793;
+			remoteInfo = CMDQueryStringSerialization;
+		};
+		1FCB034B06B2D415AE6308E99585E16B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F33F0A9659F9C6C5FEB57D8D414EC7B;
+			remoteInfo = "Venmo-iOS-SDK";
+		};
+		53035E97064355C0846F00E33E70EE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FE0162BE01AA937565241FB81C2B7D;
+			remoteInfo = VENCore;
+		};
+		6BB7B060A2455D37CF15F4AE2CCEAE11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9971EE6C0F1A944BB489CD30654A415;
+			remoteInfo = SSKeychain;
+		};
+		8A01F2AB1048FAABB0ABBC8495A5E96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FE0162BE01AA937565241FB81C2B7D;
+			remoteInfo = VENCore;
+		};
+		CB16E6675A9A113269971B65522C720B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C4EDFC103993D2B3F66B7239628793;
+			remoteInfo = CMDQueryStringSerialization;
+		};
+		CDD605C09BFB45165E43DD1ED77638D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9971EE6C0F1A944BB489CD30654A415;
+			remoteInfo = SSKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002C489C5A91D2040932CC835CA796B3 /* bitvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitvector.h; path = TesseractOCR/include/tesseract/bitvector.h; sourceTree = "<group>"; };
+		00A5F28E23A1E83E366295CBF9998434 /* strcasestr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strcasestr.h; path = TesseractOCR/include/tesseract/strcasestr.h; sourceTree = "<group>"; };
+		011FE7381F816C5EF3F73F28315D9588 /* SSKeychain-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SSKeychain-Private.xcconfig"; sourceTree = "<group>"; };
+		01F341514BFB3C57CCE6EAFCF9D41DA8 /* nwmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nwmain.h; path = TesseractOCR/include/tesseract/nwmain.h; sourceTree = "<group>"; };
+		028EDD6726291704FF61C45DEB0D7AD6 /* feature_chebyshev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_chebyshev.h; path = TesseractOCR/include/tesseract/feature_chebyshev.h; sourceTree = "<group>"; };
+		0325438B8A380614ADD5363025F8D356 /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = TesseractOCR/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		04E6863F0131890B5A000DFE86B186C9 /* qrsequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrsequence.h; path = TesseractOCR/include/tesseract/qrsequence.h; sourceTree = "<group>"; };
+		05EFCB0E11316355AFDA21593C4E84A6 /* classify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classify.h; path = TesseractOCR/include/tesseract/classify.h; sourceTree = "<group>"; };
+		06C4187CB5757EE9EBD4C67E2E36ABBC /* stepblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stepblob.h; path = TesseractOCR/include/tesseract/stepblob.h; sourceTree = "<group>"; };
+		06D06FEC22854873A0DC74FB54D075F4 /* libSSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07395473719BC9B5F7A843E653796A77 /* NSDictionary+VENCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+VENCore.h"; path = "VENCore/Categories/NSDictionary+VENCore.h"; sourceTree = "<group>"; };
+		07DE6983AD6D87106C9DD0DEB8012B85 /* sorthelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sorthelper.h; path = TesseractOCR/include/tesseract/sorthelper.h; sourceTree = "<group>"; };
+		087C4E022D7902BAA9E3BC26489968FB /* params_training_featdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params_training_featdef.h; path = TesseractOCR/include/tesseract/params_training_featdef.h; sourceTree = "<group>"; };
+		0A2F352D1E3AA2E2717B9B9DCB99E68F /* trainingsampleset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trainingsampleset.h; path = TesseractOCR/include/tesseract/trainingsampleset.h; sourceTree = "<group>"; };
+		0A9444243B6885BC26CDB597530AE8F1 /* char_samp_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp_enum.h; path = TesseractOCR/include/tesseract/char_samp_enum.h; sourceTree = "<group>"; };
+		0AE1CC7E5E255854245E59D0C4226C1C /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = TesseractOCR/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		0AFB011B1CBB1CAD364FAAFC1BB5714B /* ocrrow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrrow.h; path = TesseractOCR/include/tesseract/ocrrow.h; sourceTree = "<group>"; };
+		0B000C1AAC0C58234C634457E32EF95F /* blobbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobbox.h; path = TesseractOCR/include/tesseract/blobbox.h; sourceTree = "<group>"; };
+		0BDCFC82AB92D350D5BA184FC90A268D /* params_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params_model.h; path = TesseractOCR/include/tesseract/params_model.h; sourceTree = "<group>"; };
+		0C6D708BFA56044737E6F35527A75B3E /* mfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfx.h; path = TesseractOCR/include/tesseract/mfx.h; sourceTree = "<group>"; };
+		0CCC427BF21D3017442196B31F89B0FD /* char_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_set.h; path = TesseractOCR/include/tesseract/char_set.h; sourceTree = "<group>"; };
+		0F47244BD82219E3F0F235747CB127B6 /* cube_tuning_params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_tuning_params.h; path = TesseractOCR/include/tesseract/cube_tuning_params.h; sourceTree = "<group>"; };
+		0F55DF32A7A15FA65D2F0C5EC330E60D /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = TesseractOCR/include/leptonica/pix.h; sourceTree = "<group>"; };
+		0FA6A8E1C908C4E2A6A0713EFA81FDF7 /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = TesseractOCR/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		0FC455F396152E62124FE6D8F1C133EE /* drawedg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = drawedg.h; path = TesseractOCR/include/tesseract/drawedg.h; sourceTree = "<group>"; };
+		1089778010693F5475F71531C7A58128 /* alignedblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alignedblob.h; path = TesseractOCR/include/tesseract/alignedblob.h; sourceTree = "<group>"; };
+		11043A114079FEC4600ECD68436CC0BF /* findseam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = findseam.h; path = TesseractOCR/include/tesseract/findseam.h; sourceTree = "<group>"; };
+		1114098A8CC4384200396BFFFA59EEB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		11FC31F6AF86481DA8F871F0CC2CC19F /* wordrec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wordrec.h; path = TesseractOCR/include/tesseract/wordrec.h; sourceTree = "<group>"; };
+		12435D08CF818C303C0FAE675B278D8A /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = TesseractOCR/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		1355B6E4871BA1D38BAE55C089D3A426 /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = TesseractOCR/include/leptonica/morph.h; sourceTree = "<group>"; };
+		140A4789F73EC45615510CFAF9E46CD4 /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
+		1433AF608287A22C62AEC3B376776ACA /* mfoutline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfoutline.h; path = TesseractOCR/include/tesseract/mfoutline.h; sourceTree = "<group>"; };
+		1467B896964ADB302EC91A4B011BD1FA /* scanutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanutils.h; path = TesseractOCR/include/tesseract/scanutils.h; sourceTree = "<group>"; };
+		14F078DF8F66180299B936D91961C58D /* colpartition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colpartition.h; path = TesseractOCR/include/tesseract/colpartition.h; sourceTree = "<group>"; };
+		15966BE609ADC65FE9B4D6938BCD4499 /* Venmo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Venmo.m; path = "venmo-sdk/Venmo.m"; sourceTree = "<group>"; };
+		15A2EEAB1D0718BED1EAE10BA6E154F8 /* cube_search_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_search_object.h; path = TesseractOCR/include/tesseract/cube_search_object.h; sourceTree = "<group>"; };
+		163D4778246FAAA1C71DB0A492B01D28 /* genblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genblob.h; path = TesseractOCR/include/tesseract/genblob.h; sourceTree = "<group>"; };
+		16C1946E4DBEFED70010F9F978DED732 /* recog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recog.h; path = TesseractOCR/include/leptonica/recog.h; sourceTree = "<group>"; };
+		16F60E36165C1E108DAB3B912DC3AEAB /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+IdentifierAddition.h"; path = "venmo-sdk/Categories/UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		170EAED9EE12239402E257584EA147D3 /* feature_bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_bmp.h; path = TesseractOCR/include/tesseract/feature_bmp.h; sourceTree = "<group>"; };
+		17149BAFD82BB8F383C3A15EB923A5F4 /* featdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = featdefs.h; path = TesseractOCR/include/tesseract/featdefs.h; sourceTree = "<group>"; };
+		18F7FDD92E942DE9697648DA41E2E123 /* gap_map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gap_map.h; path = TesseractOCR/include/tesseract/gap_map.h; sourceTree = "<group>"; };
+		19CD9A4558B6218B2C8F89CC06C07B81 /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = TesseractOCR/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		19F830CABFD7C5AB3A939E4B18915F47 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A8363FB997477E1DA7A077327605226 /* ratngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ratngs.h; path = TesseractOCR/include/tesseract/ratngs.h; sourceTree = "<group>"; };
+		1B169DEA73720F603EA43BE24EB0D406 /* object_cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = object_cache.h; path = TesseractOCR/include/tesseract/object_cache.h; sourceTree = "<group>"; };
+		1B2AF855E3E2FE66A076E72F70A745A1 /* NSString+CMDQueryStringSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CMDQueryStringSerialization.h"; path = "CMDQueryStringSerialization/NSString+CMDQueryStringSerialization.h"; sourceTree = "<group>"; };
+		1B3BB6D7BB1CB86ACA40E85DDCF331F9 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = TesseractOCR/include/leptonica/queue.h; sourceTree = "<group>"; };
+		1B3C6F8618D2B509875C1F38C6EAA42C /* clst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clst.h; path = TesseractOCR/include/tesseract/clst.h; sourceTree = "<group>"; };
+		1B57AFB17526BD7DF868811A9DE13E99 /* tablerecog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tablerecog.h; path = TesseractOCR/include/tesseract/tablerecog.h; sourceTree = "<group>"; };
+		1B8A896F7DE02D630153DFD356F3B2EC /* VENRequestDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENRequestDecoder.h; path = "venmo-sdk/Encryption/VENRequestDecoder.h"; sourceTree = "<group>"; };
+		1B8C7A08E7A8A697CB9F5BA07E1ECF1B /* blckerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blckerr.h; path = TesseractOCR/include/tesseract/blckerr.h; sourceTree = "<group>"; };
+		1BFBCD47438C912AB1B9FF7507C3AC25 /* imagefind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imagefind.h; path = TesseractOCR/include/tesseract/imagefind.h; sourceTree = "<group>"; };
+		1C5A1CC09D660BD8F8C2B407D5310746 /* normstrngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normstrngs.h; path = TesseractOCR/include/tesseract/normstrngs.h; sourceTree = "<group>"; };
+		1C73170BBD4A0E068CFCC10AD28C105D /* pango_font_info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pango_font_info.h; path = TesseractOCR/include/tesseract/pango_font_info.h; sourceTree = "<group>"; };
+		1CABDE1543329B403A2CBC4253BCA706 /* intfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfx.h; path = TesseractOCR/include/tesseract/intfx.h; sourceTree = "<group>"; };
+		1D2CAA795E5ED9A129940364D41B933A /* fontinfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fontinfo.h; path = TesseractOCR/include/tesseract/fontinfo.h; sourceTree = "<group>"; };
+		1D7E86025218596F54BA58071487085C /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = TesseractOCR/include/leptonica/list.h; sourceTree = "<group>"; };
+		1DDD757859F285887B12CCB7CC70A0E6 /* resource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resource.h; path = TesseractOCR/include/tesseract/resource.h; sourceTree = "<group>"; };
+		1FBB7A145E3DBF00D9FE4D912CCC8EEF /* edgloop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = edgloop.h; path = TesseractOCR/include/tesseract/edgloop.h; sourceTree = "<group>"; };
+		2080AC5C38B072A8E8A94904BDA9BFD7 /* cube_line_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_line_object.h; path = TesseractOCR/include/tesseract/cube_line_object.h; sourceTree = "<group>"; };
+		217E34C4D6663622C3B12A96A0388B62 /* mutableiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutableiterator.h; path = TesseractOCR/include/tesseract/mutableiterator.h; sourceTree = "<group>"; };
+		21A9D2798B4586CA0CEEF9F30CB24821 /* CMDQueryStringDateTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringDateTransformer.h; path = CMDQueryStringSerialization/CMDQueryStringDateTransformer.h; sourceTree = "<group>"; };
+		21BD78078B671732F48CD6E4CA06701B /* werdit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werdit.h; path = TesseractOCR/include/tesseract/werdit.h; sourceTree = "<group>"; };
+		21C89C30D432FFE69875FDFD70F513AD /* con_comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = con_comp.h; path = TesseractOCR/include/tesseract/con_comp.h; sourceTree = "<group>"; };
+		227895EDA7AA15836FDC5DC8B6E2AEAD /* pageres.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageres.h; path = TesseractOCR/include/tesseract/pageres.h; sourceTree = "<group>"; };
+		22BD3F6DB0E6BB53A85D38A77FAF4271 /* lang_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lang_model.h; path = TesseractOCR/include/tesseract/lang_model.h; sourceTree = "<group>"; };
+		2356F9E4924D68F6089CC44B5F0489E9 /* shapeclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shapeclassifier.h; path = TesseractOCR/include/tesseract/shapeclassifier.h; sourceTree = "<group>"; };
+		2358F3B3C388E239E85C05F64A87F993 /* VENUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENUser.m; path = VENCore/Models/Users/VENUser.m; sourceTree = "<group>"; };
+		23FCBAE996B35C2C96DD385DFD05442F /* outlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = outlines.h; path = TesseractOCR/include/tesseract/outlines.h; sourceTree = "<group>"; };
+		25CE41FCCAB41C15725A456401D55C90 /* equationdetectbase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = equationdetectbase.h; path = TesseractOCR/include/tesseract/equationdetectbase.h; sourceTree = "<group>"; };
+		2600F5F3FF149CBB168BBD9557329E2C /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = TesseractOCR/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		2625AA239AC9416D4FED74CE990F3554 /* ccstruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccstruct.h; path = TesseractOCR/include/tesseract/ccstruct.h; sourceTree = "<group>"; };
+		28C8D9F53156CF65DE416B2694C64146 /* trainingsample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trainingsample.h; path = TesseractOCR/include/tesseract/trainingsample.h; sourceTree = "<group>"; };
+		28DF8C5661B2BB9AEB8AEBDD2B695FB4 /* lm_pain_points.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_pain_points.h; path = TesseractOCR/include/tesseract/lm_pain_points.h; sourceTree = "<group>"; };
+		29854679DBB033CA09D66BB05C358A41 /* textlineprojection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = textlineprojection.h; path = TesseractOCR/include/tesseract/textlineprojection.h; sourceTree = "<group>"; };
+		2A250EE937E3ABCDCD3E6DDF4840DAE6 /* boxchar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxchar.h; path = TesseractOCR/include/tesseract/boxchar.h; sourceTree = "<group>"; };
+		2A889C6BAD3CFBB5D9E1B51360F6EA56 /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = TesseractOCR/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		2D69D20F9EFBE7AA4A460CF4C40BBB67 /* VENHMAC_SHA256_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENHMAC_SHA256_Internal.h; path = "venmo-sdk/Encryption/VENHMAC_SHA256_Internal.h"; sourceTree = "<group>"; };
+		2D793AD77797D50A2E85FF65261F7A7C /* ndminx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ndminx.h; path = TesseractOCR/include/tesseract/ndminx.h; sourceTree = "<group>"; };
+		2DB528F0B4829ED81650AC8FECCAE08A /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = TesseractOCR/include/leptonica/array.h; sourceTree = "<group>"; };
+		2DC494E8252F970007925A7BBEE38431 /* picofeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = picofeat.h; path = TesseractOCR/include/tesseract/picofeat.h; sourceTree = "<group>"; };
+		2DE1F06868D4B4779DBB3B4DD611CF41 /* fxdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fxdefs.h; path = TesseractOCR/include/tesseract/fxdefs.h; sourceTree = "<group>"; };
+		2E438815E33FBDF95E20E99ABD10E826 /* dawg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dawg.h; path = TesseractOCR/include/tesseract/dawg.h; sourceTree = "<group>"; };
+		2E6C2E4EC0029F9970957343EEF22331 /* Tesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tesseract.h; path = TesseractOCR/Tesseract.h; sourceTree = "<group>"; };
+		2F4E4CE5724D042D3A41753CC4C44F03 /* CMDQueryStringValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringValueTransformer.m; path = CMDQueryStringSerialization/CMDQueryStringValueTransformer.m; sourceTree = "<group>"; };
+		2F9B558CDF0CE08D0753769923CC0E93 /* ocrpara.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrpara.h; path = TesseractOCR/include/tesseract/ocrpara.h; sourceTree = "<group>"; };
+		2FEFBA8D1C22E4D8C6B54CF94EA10DAF /* CMDQueryStringSerialization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMDQueryStringSerialization-dummy.m"; sourceTree = "<group>"; };
+		3005C1361231520113FCF44DE7B8D87E /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = TesseractOCR/include/tesseract/version.h; sourceTree = "<group>"; };
+		31AAC777AE0A66A79E7822BD27D66DDA /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = TesseractOCR/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		31DB37A4C0C4CE689F7FAC341AAAA721 /* word_list_lang_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_list_lang_model.h; path = TesseractOCR/include/tesseract/word_list_lang_model.h; sourceTree = "<group>"; };
+		32005EFBE8DE5F8F20150C973D118AFA /* tesseract_cube_combiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseract_cube_combiner.h; path = TesseractOCR/include/tesseract/tesseract_cube_combiner.h; sourceTree = "<group>"; };
+		32A732C44131AD388BF223AFC1B14FC3 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+IdentifierAddition.m"; path = "venmo-sdk/Categories/UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		3372C29C0AFC0BBE50659E05B410DB7C /* classifier_factory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classifier_factory.h; path = TesseractOCR/include/tesseract/classifier_factory.h; sourceTree = "<group>"; };
+		33A1AEDE2361325A6846DAA6E0A2ED8E /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = TesseractOCR/include/leptonica/stack.h; sourceTree = "<group>"; };
+		33B77D83733A125383DBB5D7929FC5D6 /* tess_lang_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_lang_model.h; path = TesseractOCR/include/tesseract/tess_lang_model.h; sourceTree = "<group>"; };
+		3437E72B4B7A631EE04A88C474044E31 /* fpchop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fpchop.h; path = TesseractOCR/include/tesseract/fpchop.h; sourceTree = "<group>"; };
+		346241F6AAF0C2B6F96C12D0C5DDD09C /* VENCreateTransactionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENCreateTransactionRequest.h; path = VENCore/Models/Transactions/VENCreateTransactionRequest.h; sourceTree = "<group>"; };
+		347DB9349B0ED4C373FD8963904D8647 /* VENURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENURLProtocol.m; path = "venmo-sdk/URL Handling/VENURLProtocol.m"; sourceTree = "<group>"; };
+		3590F8CE7A8ACA2EF934070BFA74176F /* freetype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = freetype.h; path = TesseractOCR/include/leptonica/freetype.h; sourceTree = "<group>"; };
+		359DD9C0809544EE303FDFA26E3CDE89 /* lm_state.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_state.h; path = TesseractOCR/include/tesseract/lm_state.h; sourceTree = "<group>"; };
+		36B0C3180FD7F68DE6027F3D16328348 /* gettimeofday.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gettimeofday.h; path = TesseractOCR/include/tesseract/gettimeofday.h; sourceTree = "<group>"; };
+		372BCC0B11A4646A89F112C52C14FA11 /* renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = TesseractOCR/include/tesseract/renderer.h; sourceTree = "<group>"; };
+		375950E5E8CED5F6CC373F7179993703 /* VENUser+VenmoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VENUser+VenmoSDK.h"; path = "venmo-sdk/Categories/VENUser+VenmoSDK.h"; sourceTree = "<group>"; };
+		390BB396464C2F391A9A7D2FE74D4876 /* VENRequestDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENRequestDecoder.m; path = "venmo-sdk/Encryption/VENRequestDecoder.m"; sourceTree = "<group>"; };
+		3A25A37FA5965BC0ADBB9BD9CEB9A2CC /* neural_net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = neural_net.h; path = TesseractOCR/include/tesseract/neural_net.h; sourceTree = "<group>"; };
+		3B74E056441735E11982670C490472E6 /* unicodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicodes.h; path = TesseractOCR/include/tesseract/unicodes.h; sourceTree = "<group>"; };
+		3B81BAED3BE091157C707C06E5CA4530 /* float2int.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = float2int.h; path = TesseractOCR/include/tesseract/float2int.h; sourceTree = "<group>"; };
+		3B8AC186C9357112C0688160C1F43AD4 /* stopper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stopper.h; path = TesseractOCR/include/tesseract/stopper.h; sourceTree = "<group>"; };
+		3BD7A711D1BF0C14DA88B61C320FF214 /* bits16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bits16.h; path = TesseractOCR/include/tesseract/bits16.h; sourceTree = "<group>"; };
+		3CB1C8CF4811660DC0ED5625FEED894C /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = TesseractOCR/include/leptonica/gplot.h; sourceTree = "<group>"; };
+		3D499D30E3AEC0B302194CBD3E106A59 /* adaptive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = adaptive.h; path = TesseractOCR/include/tesseract/adaptive.h; sourceTree = "<group>"; };
+		3DF92492906D408E9B2718183C2D94D0 /* docqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = docqual.h; path = TesseractOCR/include/tesseract/docqual.h; sourceTree = "<group>"; };
+		3E716B4BF9C7837A6AA13A55E85609AB /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = TesseractOCR/include/tesseract/util.h; sourceTree = "<group>"; };
+		40D7DC9F0FE24F2CD2E20690E7FA2070 /* globaloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globaloc.h; path = TesseractOCR/include/tesseract/globaloc.h; sourceTree = "<group>"; };
+		40F77B48B58290ACBBAACE6423FBB2C4 /* icuerrorcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = icuerrorcode.h; path = TesseractOCR/include/tesseract/icuerrorcode.h; sourceTree = "<group>"; };
+		412624051A8F14E3545EC3927451D762 /* paramsd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paramsd.h; path = TesseractOCR/include/tesseract/paramsd.h; sourceTree = "<group>"; };
+		416DFD09DA2E39E021372F46E68DE469 /* VENCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENCore.m; path = VENCore/VENCore.m; sourceTree = "<group>"; };
+		4211E1BBDD88FBCC27B58E2CAE46634F /* mastertrainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mastertrainer.h; path = TesseractOCR/include/tesseract/mastertrainer.h; sourceTree = "<group>"; };
+		42FBB6A2EB4FABA4F4AF1A229399C498 /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = TesseractOCR/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		430B8113D10149CDDCA90212C95BFFB4 /* blamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blamer.h; path = TesseractOCR/include/tesseract/blamer.h; sourceTree = "<group>"; };
+		43ABEE7BF6EA24DD888F9FF67B961EED /* pdblock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pdblock.h; path = TesseractOCR/include/tesseract/pdblock.h; sourceTree = "<group>"; };
+		44513CCBA6BD9243EA25CE94FC422F18 /* VENTransactionTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTransactionTarget.h; path = VENCore/Models/Transactions/VENTransactionTarget.h; sourceTree = "<group>"; };
+		4500B0062E69EAA86DC1CB76F8756F2B /* libtesseract_all.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtesseract_all.a; path = TesseractOCR/lib/libtesseract_all.a; sourceTree = "<group>"; };
+		452FEF5CC5594B62E1845E45831925EE /* UIImage+Filters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Filters.h"; path = "TesseractOCR/UIImage+Filters.h"; sourceTree = "<group>"; };
+		453A2B7B5C1B4DE595F8106193581148 /* NSDictionary+VenmoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+VenmoSDK.h"; path = "venmo-sdk/Categories/NSDictionary+VenmoSDK.h"; sourceTree = "<group>"; };
+		45F54CE5909E6661B606327042E03A39 /* CMDQueryStringValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringValueTransformer.h; path = CMDQueryStringSerialization/CMDQueryStringValueTransformer.h; sourceTree = "<group>"; };
+		46BD8D9FA4C16FD7327506B4CC13D866 /* bbgrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbgrid.h; path = TesseractOCR/include/tesseract/bbgrid.h; sourceTree = "<group>"; };
+		474E41F7D965DD2AE3F4114BBDF04367 /* associate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = associate.h; path = TesseractOCR/include/tesseract/associate.h; sourceTree = "<group>"; };
+		4791CBB7C39BE31E95C85B685D2C07B6 /* extern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extern.h; path = TesseractOCR/include/tesseract/extern.h; sourceTree = "<group>"; };
+		47DFAA847CEB9BB195637EAE85B6EDE9 /* VENCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VENCore-prefix.pch"; sourceTree = "<group>"; };
+		48B250E889720B8F14B78B1540A564CD /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = Products/TesseractOCR.framework; sourceTree = "<group>"; };
+		48E8D262490ED33E8E8C968ADFD14912 /* word_size_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_size_model.h; path = TesseractOCR/include/tesseract/word_size_model.h; sourceTree = "<group>"; };
+		497851650ABEB54406F128CEB7E0859A /* drawfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = drawfx.h; path = TesseractOCR/include/tesseract/drawfx.h; sourceTree = "<group>"; };
+		49867D75444159ECC6E7FF00DACA9074 /* efio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = efio.h; path = TesseractOCR/include/tesseract/efio.h; sourceTree = "<group>"; };
+		49D08A27AB72EC4A6DA6AE65217098C3 /* outfeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = outfeat.h; path = TesseractOCR/include/tesseract/outfeat.h; sourceTree = "<group>"; };
+		4A08A2691668007817A07CE8C54CE3F0 /* VENTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTransaction.h; path = VENCore/Models/Transactions/VENTransaction.h; sourceTree = "<group>"; };
+		4C44ADC7D665030A2CEB943280D15B97 /* char_bigrams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_bigrams.h; path = TesseractOCR/include/tesseract/char_bigrams.h; sourceTree = "<group>"; };
+		4C51397876E2936CB67194E7F8FE3689 /* polyaprx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = polyaprx.h; path = TesseractOCR/include/tesseract/polyaprx.h; sourceTree = "<group>"; };
+		4CDE017085AB9EA4DDB4208C4CEFA327 /* normfeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normfeat.h; path = TesseractOCR/include/tesseract/normfeat.h; sourceTree = "<group>"; };
+		4E2E0CE96B0599CB700697D17ACCF913 /* makechop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = makechop.h; path = TesseractOCR/include/tesseract/makechop.h; sourceTree = "<group>"; };
+		4E62D5F0123EAAD72E64ABA7995710D0 /* listio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = listio.h; path = TesseractOCR/include/tesseract/listio.h; sourceTree = "<group>"; };
+		4EA98A2EEBB4BB7533CC168FBF246060 /* search_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_object.h; path = TesseractOCR/include/tesseract/search_object.h; sourceTree = "<group>"; };
+		4ED2B78306F510850ECE9E0A7347AA38 /* statistc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = statistc.h; path = TesseractOCR/include/tesseract/statistc.h; sourceTree = "<group>"; };
+		4F612A08AE6E45163E6587CAAD3D3970 /* colfind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colfind.h; path = TesseractOCR/include/tesseract/colfind.h; sourceTree = "<group>"; };
+		4F7E3C28B578BE0203192C8D3CA7B7EA /* freelist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = freelist.h; path = TesseractOCR/include/tesseract/freelist.h; sourceTree = "<group>"; };
+		4FB2F74FF5EE9646AC2DC6F8490AA143 /* CMDQueryStringDateTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringDateTransformer.m; path = CMDQueryStringSerialization/CMDQueryStringDateTransformer.m; sourceTree = "<group>"; };
+		50BA269D937BBBC2AFF12D51C4C021CA /* NSURL+VenmoSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+VenmoSDK.m"; path = "venmo-sdk/Categories/NSURL+VenmoSDK.m"; sourceTree = "<group>"; };
+		50CB9042191929EECE1ECFDFAAE2BEB2 /* intfeaturespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfeaturespace.h; path = TesseractOCR/include/tesseract/intfeaturespace.h; sourceTree = "<group>"; };
+		50E67D24B93F9E4B5DE4F62849A50269 /* VENHMAC_SHA256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENHMAC_SHA256.m; path = "venmo-sdk/Encryption/VENHMAC_SHA256.m"; sourceTree = "<group>"; };
+		51AF3D4CC8E4A0C0F975E11687548205 /* textord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = textord.h; path = TesseractOCR/include/tesseract/textord.h; sourceTree = "<group>"; };
+		528DB4D1941220B37E04081890CAE2E3 /* commandlineflags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commandlineflags.h; path = TesseractOCR/include/tesseract/commandlineflags.h; sourceTree = "<group>"; };
+		52C1419DD5F00BD04929B987706EEC38 /* makerow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = makerow.h; path = TesseractOCR/include/tesseract/makerow.h; sourceTree = "<group>"; };
+		52D92521236E12463687CBC270F0BF1C /* blobgrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobgrid.h; path = TesseractOCR/include/tesseract/blobgrid.h; sourceTree = "<group>"; };
+		537BE1074085955048093934C10F48E5 /* tprintf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tprintf.h; path = TesseractOCR/include/tesseract/tprintf.h; sourceTree = "<group>"; };
+		53C414A8E1D967021D64BA4A6070189F /* Venmo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Venmo.h; path = "venmo-sdk/Venmo.h"; sourceTree = "<group>"; };
+		5642B749D53B469D4FDDF4467934E33D /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = TesseractOCR/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		56FB904016AEA0C1D94C8D1DCA11E79D /* olutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = olutil.h; path = TesseractOCR/include/tesseract/olutil.h; sourceTree = "<group>"; };
+		58462F74A00F4C95B65FB1E7A7A75D5A /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = TesseractOCR/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		587CA072DAACADAC367189340AA3D48C /* pithsync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pithsync.h; path = TesseractOCR/include/tesseract/pithsync.h; sourceTree = "<group>"; };
+		58863CA2150F5B22E1BF14A96AF0BF77 /* TesseractOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TesseractOCR.h; path = TesseractOCR/TesseractOCR.h; sourceTree = "<group>"; };
+		597521A25D13F8B7657CACE07957E765 /* tessdatamanager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessdatamanager.h; path = TesseractOCR/include/tesseract/tessdatamanager.h; sourceTree = "<group>"; };
+		5AF0608E7F4025294B93FD96EE08C01E /* tabfind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tabfind.h; path = TesseractOCR/include/tesseract/tabfind.h; sourceTree = "<group>"; };
+		5B5728430A87355D84FBA6823ACFC855 /* quadlsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadlsq.h; path = TesseractOCR/include/tesseract/quadlsq.h; sourceTree = "<group>"; };
+		5BA05DEB5A8C7A74D2F6BCF4F9D1B058 /* NSString+VENCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+VENCore.m"; path = "VENCore/Categories/NSString+VENCore.m"; sourceTree = "<group>"; };
+		5D7F3F7202967CD66B4F5F1E7DF6DB1C /* hpdsizes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hpdsizes.h; path = TesseractOCR/include/tesseract/hpdsizes.h; sourceTree = "<group>"; };
+		5DE1EEE2A14BB6CAF31B13F03DDEA5F6 /* tovars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tovars.h; path = TesseractOCR/include/tesseract/tovars.h; sourceTree = "<group>"; };
+		5DF75BD2A0182787638BADF269519E35 /* blobs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobs.h; path = TesseractOCR/include/tesseract/blobs.h; sourceTree = "<group>"; };
+		5EB2162A78023B8273FBE703CC9FE396 /* VENUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENUser.h; path = VENCore/Models/Users/VENUser.h; sourceTree = "<group>"; };
+		5FAFC5648C59EE379043491B66E520B3 /* cluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cluster.h; path = TesseractOCR/include/tesseract/cluster.h; sourceTree = "<group>"; };
+		6014DB426AC358F8FA040AC492749FB2 /* tessclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessclassifier.h; path = TesseractOCR/include/tesseract/tessclassifier.h; sourceTree = "<group>"; };
+		601E9C60DB9102A2AC29D6F89BC77584 /* underlin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = underlin.h; path = TesseractOCR/include/tesseract/underlin.h; sourceTree = "<group>"; };
+		603148FAA52FE6A38812D8582F774519 /* blread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blread.h; path = TesseractOCR/include/tesseract/blread.h; sourceTree = "<group>"; };
+		60602CCF01DDA7310011A22782DACEFA /* oclkernels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oclkernels.h; path = TesseractOCR/include/tesseract/oclkernels.h; sourceTree = "<group>"; };
+		60875BA776BA005B8EB231BDB49CB624 /* fileio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileio.h; path = TesseractOCR/include/tesseract/fileio.h; sourceTree = "<group>"; };
+		608E54777C075D79EE829600EFE33DA6 /* Venmo-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Venmo-iOS-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		6096EE95591ACA87CC23334A8B43670B /* CMDQueryStringStringTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringStringTransformer.m; path = CMDQueryStringSerialization/CMDQueryStringStringTransformer.m; sourceTree = "<group>"; };
+		61675072104732C332E4F67F3FC554AA /* quspline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quspline.h; path = TesseractOCR/include/tesseract/quspline.h; sourceTree = "<group>"; };
+		61F5A44B17ED0EE923FD4214DF337DB6 /* VENCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENCore.h; path = VENCore/VENCore.h; sourceTree = "<group>"; };
+		624D10BB543C8A8916A6375CC69B6845 /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = TesseractOCR/include/leptonica/environ.h; sourceTree = "<group>"; };
+		62606B20EE957F969BC97F0B3F40F9F8 /* libVenmo-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libVenmo-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		630196D0ADBCFA7C144F08F4D0171226 /* mfdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfdefs.h; path = TesseractOCR/include/tesseract/mfdefs.h; sourceTree = "<group>"; };
+		63AF599E50987AA97796D97EA3C0E7DC /* tessvars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessvars.h; path = TesseractOCR/include/tesseract/tessvars.h; sourceTree = "<group>"; };
+		641DDADD1DEBD49955FCF914AED23FD3 /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		6507FAE575EC8EE6A94F018193559028 /* VENUserPayloadKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENUserPayloadKeys.h; path = VENCore/Models/Users/VENUserPayloadKeys.h; sourceTree = "<group>"; };
+		651C50368FC28D20AEE0799123E4353A /* intmatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intmatcher.h; path = TesseractOCR/include/tesseract/intmatcher.h; sourceTree = "<group>"; };
+		652779A0F25EBAEC03AC4F5CAFD82CF9 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5Addition.h"; path = "venmo-sdk/Categories/NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		67F6F3D42CF8DC5DF967294D38F195E0 /* cube_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_object.h; path = TesseractOCR/include/tesseract/cube_object.h; sourceTree = "<group>"; };
+		682774F8130F44BCDC2B20A752A44123 /* flexfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = flexfx.h; path = TesseractOCR/include/tesseract/flexfx.h; sourceTree = "<group>"; };
+		6833C9DEA7815766DE9E52FC6E28EC7F /* structures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = structures.h; path = TesseractOCR/include/tesseract/structures.h; sourceTree = "<group>"; };
+		69324699935469391731D3AC75464EF6 /* universalambigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = universalambigs.h; path = TesseractOCR/include/tesseract/universalambigs.h; sourceTree = "<group>"; };
+		6A80B36BD91C2CDB9EA65DB3AA71D4D9 /* hybrid_neural_net_classifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hybrid_neural_net_classifier.h; path = TesseractOCR/include/tesseract/hybrid_neural_net_classifier.h; sourceTree = "<group>"; };
+		6B297AB30285D078A9204F0F65C9D38C /* VENUser+VenmoSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VENUser+VenmoSDK.m"; path = "venmo-sdk/Categories/VENUser+VenmoSDK.m"; sourceTree = "<group>"; };
+		6C5EADB46ABBEDBB9BFBC3C5F2159BD9 /* char_samp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp.h; path = TesseractOCR/include/tesseract/char_samp.h; sourceTree = "<group>"; };
+		6D7B6015105C2807353728389AF14132 /* cached_file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cached_file.h; path = TesseractOCR/include/tesseract/cached_file.h; sourceTree = "<group>"; };
+		6E35D444B85EAA7CCF03D47C3145D3AF /* CMDQueryStringSerialization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMDQueryStringSerialization.xcconfig; sourceTree = "<group>"; };
+		6E453D5BC3E7A706F7F88609B5EFE314 /* callcpp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = callcpp.h; path = TesseractOCR/include/tesseract/callcpp.h; sourceTree = "<group>"; };
+		6E50D74820AABB60B0233550F9B04A3A /* werd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werd.h; path = TesseractOCR/include/tesseract/werd.h; sourceTree = "<group>"; };
+		6E933DA7976D08B35783B71C27BBE04A /* dawg_cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dawg_cache.h; path = TesseractOCR/include/tesseract/dawg_cache.h; sourceTree = "<group>"; };
+		6E94ACB200BB4719D79BD4FBB74FF863 /* elst2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = elst2.h; path = TesseractOCR/include/tesseract/elst2.h; sourceTree = "<group>"; };
+		6EC8677EA6C7DB49BD14970D01CECF37 /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = TesseractOCR/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		6FE406474F13AFDF5F9A60A77F62C13B /* VENBase64_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENBase64_Internal.h; path = "venmo-sdk/Encryption/VENBase64_Internal.h"; sourceTree = "<group>"; };
+		7079B135E23D0C96525EEB086157699D /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = TesseractOCR/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		70C3E00039936412C1A9FDEF6F2053AD /* stderr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stderr.h; path = TesseractOCR/include/tesseract/stderr.h; sourceTree = "<group>"; };
+		70C47FD0ED51E8F0BD7CEC4DDF99B307 /* char_samp_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp_set.h; path = TesseractOCR/include/tesseract/char_samp_set.h; sourceTree = "<group>"; };
+		715DA579D18A14DF5B548B0340C1AD00 /* CMDQueryStringReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringReader.m; path = CMDQueryStringSerialization/CMDQueryStringReader.m; sourceTree = "<group>"; };
+		71EF1C509E3018B119095FE3B82B16D7 /* NSURL+VenmoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+VenmoSDK.h"; path = "venmo-sdk/Categories/NSURL+VenmoSDK.h"; sourceTree = "<group>"; };
+		722E12F0C9AA447A3049E5316CBB806B /* VENPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENPermission.h; path = "venmo-sdk/Models/VENPermission.h"; sourceTree = "<group>"; };
+		738D2AE9BD1AE0C20746D2AC01CEFA40 /* VENTransaction+VenmoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VENTransaction+VenmoSDK.h"; path = "venmo-sdk/Categories/VENTransaction+VenmoSDK.h"; sourceTree = "<group>"; };
+		750F34DFE400B64789DF6CC3CD498BF2 /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = TesseractOCR/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		75A0A2A0384E349A64759F3AF1D8EC67 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		765A53924482104FE0641C2CD3271348 /* NSString+VenmoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+VenmoSDK.h"; path = "venmo-sdk/Categories/NSString+VenmoSDK.h"; sourceTree = "<group>"; };
+		766534665D3524A14F4E8592A788F302 /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = TesseractOCR/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		7743B25DAA5012D73DBE6FE106964932 /* memry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memry.h; path = TesseractOCR/include/tesseract/memry.h; sourceTree = "<group>"; };
+		77C350F485542BE6F732A2167C9682E1 /* unicharset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharset.h; path = TesseractOCR/include/tesseract/unicharset.h; sourceTree = "<group>"; };
+		77DFD629B97FA961ECABFC8ECC23B7ED /* host.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = host.h; path = TesseractOCR/include/tesseract/host.h; sourceTree = "<group>"; };
+		7826316765B383B8C9E54602EAC1635E /* quadratc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadratc.h; path = TesseractOCR/include/tesseract/quadratc.h; sourceTree = "<group>"; };
+		78BAC99FC08BB3283F356DF4586E9BF0 /* dppoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dppoint.h; path = TesseractOCR/include/tesseract/dppoint.h; sourceTree = "<group>"; };
+		7A3A020F42A183006D624B4D710F11D5 /* genericheap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericheap.h; path = TesseractOCR/include/tesseract/genericheap.h; sourceTree = "<group>"; };
+		7AA63220521D0192D31D2D1FC1E6BED8 /* input_file_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = input_file_buffer.h; path = TesseractOCR/include/tesseract/input_file_buffer.h; sourceTree = "<group>"; };
+		7AE51F4A514154E9A1ACD9385641F98D /* split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = split.h; path = TesseractOCR/include/tesseract/split.h; sourceTree = "<group>"; };
+		7B17C6A6F6C02A4958B7A4672DC0221A /* mf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mf.h; path = TesseractOCR/include/tesseract/mf.h; sourceTree = "<group>"; };
+		7C101D2520981426FC2FBB311DBADDA3 /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = TesseractOCR/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		7DA3D0B7FE8B15344B55169FED03D14D /* VENDefines_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENDefines_Internal.h; path = "venmo-sdk/Encryption/VENDefines_Internal.h"; sourceTree = "<group>"; };
+		7DFA5BE4D9D0956E6F68D1E5EAF2A46A /* word_unigrams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_unigrams.h; path = TesseractOCR/include/tesseract/word_unigrams.h; sourceTree = "<group>"; };
+		7E7909CB3FF28DD584A0FC468A0A04A2 /* Venmo-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Venmo-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		7F1FC8F282BAB603FFCBA2C695D0CBB0 /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = TesseractOCR/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		800940A48D8E00B064B56F28E6DC0F34 /* reject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reject.h; path = TesseractOCR/include/tesseract/reject.h; sourceTree = "<group>"; };
+		80298BA41DE6C7909672853B102F9825 /* detlinefit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = detlinefit.h; path = TesseractOCR/include/tesseract/detlinefit.h; sourceTree = "<group>"; };
+		805DFEE4B65592A918F28CA65589511F /* bmp_8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp_8.h; path = TesseractOCR/include/tesseract/bmp_8.h; sourceTree = "<group>"; };
+		812D0B1D9C09EF8FE25E4C96E3A4FE00 /* altlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = altlist.h; path = TesseractOCR/include/tesseract/altlist.h; sourceTree = "<group>"; };
+		81C46A807F7C1B96B55BC67301A7D8D9 /* polyblk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = polyblk.h; path = TesseractOCR/include/tesseract/polyblk.h; sourceTree = "<group>"; };
+		82E05ADADD347C9B9D471CE325E6A1E0 /* strokewidth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strokewidth.h; path = TesseractOCR/include/tesseract/strokewidth.h; sourceTree = "<group>"; };
+		835439CCD8021862B5DF514799A01CD5 /* VENTransactionTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTransactionTarget.m; path = VENCore/Models/Transactions/VENTransactionTarget.m; sourceTree = "<group>"; };
+		83AA9FA56B9B88A6F68536A5762CF226 /* CMDQueryStringSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringSerialization.h; path = CMDQueryStringSerialization/CMDQueryStringSerialization.h; sourceTree = "<group>"; };
+		8490C397A5B6DBF618080B8FF818165B /* fpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fpoint.h; path = TesseractOCR/include/tesseract/fpoint.h; sourceTree = "<group>"; };
+		879844DA7E7E679085933F2354657C1A /* sampleiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sampleiterator.h; path = TesseractOCR/include/tesseract/sampleiterator.h; sourceTree = "<group>"; };
+		87C827F7A10D5419928A55791AF76199 /* baselinedetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baselinedetect.h; path = TesseractOCR/include/tesseract/baselinedetect.h; sourceTree = "<group>"; };
+		889C59AEA7D801647CE1984A4C6E5AC6 /* VENHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENHTTP.h; path = VENCore/Networking/VENHTTP.h; sourceTree = "<group>"; };
+		891580FE76089286E6493DDAB24D6E3C /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = TesseractOCR/include/tesseract/config_auto.h; sourceTree = "<group>"; };
+		8922ED820735747FFEF1C0A76055B97A /* CMDQueryStringSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringSerialization.m; path = CMDQueryStringSerialization/CMDQueryStringSerialization.m; sourceTree = "<group>"; };
+		8A64FE8C07033AB8AAF4D3F2D9A23060 /* matchdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matchdefs.h; path = TesseractOCR/include/tesseract/matchdefs.h; sourceTree = "<group>"; };
+		8A7EDE5AE90ABCC0C4FD2F9F311865C9 /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = TesseractOCR/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		8B02D1EAE7B4009E18086255C94D8FED /* secname.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secname.h; path = TesseractOCR/include/tesseract/secname.h; sourceTree = "<group>"; };
+		8B3A3765D40849EF3A77AF261A87BCEC /* degradeimage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = degradeimage.h; path = TesseractOCR/include/tesseract/degradeimage.h; sourceTree = "<group>"; };
+		8B7C9C8AFBD896D8B932CF72A4048D94 /* tabvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tabvector.h; path = TesseractOCR/include/tesseract/tabvector.h; sourceTree = "<group>"; };
+		8BED1A708BC8EEBDB86F9FF8BCBA0BCD /* equationdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = equationdetect.h; path = TesseractOCR/include/tesseract/equationdetect.h; sourceTree = "<group>"; };
+		8BFD400BA1425623AB89598350CF2D49 /* rect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rect.h; path = TesseractOCR/include/tesseract/rect.h; sourceTree = "<group>"; };
+		8C227C0C3DBA0D490ABE03D3927D501E /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = TesseractOCR/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		8C49436C511E4A0DBDF9638A3AF41826 /* unicity_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicity_table.h; path = TesseractOCR/include/tesseract/unicity_table.h; sourceTree = "<group>"; };
+		8C8078F9AD914011915DD45A1775BCFD /* NSString+VenmoSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+VenmoSDK.m"; path = "venmo-sdk/Categories/NSString+VenmoSDK.m"; sourceTree = "<group>"; };
+		8CC2E533C0B3623C4F7FE87355CBB5FB /* coutln.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coutln.h; path = TesseractOCR/include/tesseract/coutln.h; sourceTree = "<group>"; };
+		8CFB37B9D7B573BE103B81AA24FC10AF /* CMDQueryStringSerialization-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CMDQueryStringSerialization-Private.xcconfig"; sourceTree = "<group>"; };
+		9009622E7BE9F1813ECE62052A9A6973 /* tess_lang_mod_edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_lang_mod_edge.h; path = TesseractOCR/include/tesseract/tess_lang_mod_edge.h; sourceTree = "<group>"; };
+		9134C83D2918ADF2891E68A27EA9CCB4 /* fixspace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fixspace.h; path = TesseractOCR/include/tesseract/fixspace.h; sourceTree = "<group>"; };
+		91F9350F4337E5A21F6DF620AF63DBDB /* boxread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxread.h; path = TesseractOCR/include/tesseract/boxread.h; sourceTree = "<group>"; };
+		926FA6AEB18EFC74671EDFC369865C34 /* lm_consistency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_consistency.h; path = TesseractOCR/include/tesseract/lm_consistency.h; sourceTree = "<group>"; };
+		92A4188B7C6911946023C0E72498D91D /* lang_mod_edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lang_mod_edge.h; path = TesseractOCR/include/tesseract/lang_mod_edge.h; sourceTree = "<group>"; };
+		92B3FBFE4F95A0562C73685D19ED4D49 /* VENTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTransaction.m; path = VENCore/Models/Transactions/VENTransaction.m; sourceTree = "<group>"; };
+		93DBBBCC4FA30D7040CC75047A12E36A /* chop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chop.h; path = TesseractOCR/include/tesseract/chop.h; sourceTree = "<group>"; };
+		941C58951E19BC91AC4EDC4E8D3F3195 /* stringrenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringrenderer.h; path = TesseractOCR/include/tesseract/stringrenderer.h; sourceTree = "<group>"; };
+		94371E6CDAC91F92CD855B28E336C178 /* VENErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENErrors.h; path = "venmo-sdk/Supporting Files/VENErrors.h"; sourceTree = "<group>"; };
+		943EEF197F43E5DF0EA24C3CA9C6EE71 /* mod128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mod128.h; path = TesseractOCR/include/tesseract/mod128.h; sourceTree = "<group>"; };
+		9495B5BBCEEE4C6528DD2CB679D6E6BA /* beam_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = beam_search.h; path = TesseractOCR/include/tesseract/beam_search.h; sourceTree = "<group>"; };
+		9546A2CDB5244AE5243AB3CD3F641B56 /* extract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extract.h; path = TesseractOCR/include/tesseract/extract.h; sourceTree = "<group>"; };
+		957E5243E5F0A6199AF2351E13BD99B1 /* clusttool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clusttool.h; path = TesseractOCR/include/tesseract/clusttool.h; sourceTree = "<group>"; };
+		96B5172855AC5473203E606BC7079C5B /* danerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = danerror.h; path = TesseractOCR/include/tesseract/danerror.h; sourceTree = "<group>"; };
+		9775071E16A156C0C052308145A36B93 /* kdpair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdpair.h; path = TesseractOCR/include/tesseract/kdpair.h; sourceTree = "<group>"; };
+		97BBA7A299F244C5F89147A64DEAC850 /* devanagari_processing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = devanagari_processing.h; path = TesseractOCR/include/tesseract/devanagari_processing.h; sourceTree = "<group>"; };
+		97DBEDCBF203C9EE3A66C9CFFE1D4433 /* VENSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENSession.m; path = "venmo-sdk/Models/VENSession.m"; sourceTree = "<group>"; };
+		97E4D950B43DDFA9ECE58D889EA328E9 /* paragraphs_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paragraphs_internal.h; path = TesseractOCR/include/tesseract/paragraphs_internal.h; sourceTree = "<group>"; };
+		97E8A75AEEA5CC69E06D2731A42C8C03 /* control.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = control.h; path = TesseractOCR/include/tesseract/control.h; sourceTree = "<group>"; };
+		986957A4A1E12F9C7FD67E3255D56E8D /* NSError+VENCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+VENCore.h"; path = "VENCore/Categories/NSError+VENCore.h"; sourceTree = "<group>"; };
+		9B0640BC6726E203B122C6A8F142E3F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9B2AA740E935C7685AE9528B72F13133 /* VENCore-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VENCore-Private.xcconfig"; sourceTree = "<group>"; };
+		9B4078B9B63AD70FDD259DA0C5B1F9AC /* NSString+CMDQueryStringSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CMDQueryStringSerialization.m"; path = "CMDQueryStringSerialization/NSString+CMDQueryStringSerialization.m"; sourceTree = "<group>"; };
+		9CA89CA2E94FD5F19DF0F1CEE3238B8B /* unicharmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharmap.h; path = TesseractOCR/include/tesseract/unicharmap.h; sourceTree = "<group>"; };
+		9D249BB757F89F86B526284942DBEAAA /* points.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = points.h; path = TesseractOCR/include/tesseract/points.h; sourceTree = "<group>"; };
+		9D8A19B57FA5C28EE47DBFD1C56F051B /* linefind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linefind.h; path = TesseractOCR/include/tesseract/linefind.h; sourceTree = "<group>"; };
+		9DD3500AAEB8E285224E54287E25BE24 /* search_column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_column.h; path = TesseractOCR/include/tesseract/search_column.h; sourceTree = "<group>"; };
+		9DFEC8F028776B487E0400EC91242849 /* ligature_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ligature_table.h; path = TesseractOCR/include/tesseract/ligature_table.h; sourceTree = "<group>"; };
+		9F3E3BA99AEB42CD49CC1E6962B21669 /* emalloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = emalloc.h; path = TesseractOCR/include/tesseract/emalloc.h; sourceTree = "<group>"; };
+		9F4C3640B283CEE41AE0B2D5340141D7 /* ambigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ambigs.h; path = TesseractOCR/include/tesseract/ambigs.h; sourceTree = "<group>"; };
+		A02F672F532C681A3CCB445BFDF65F4D /* ccnontextdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccnontextdetect.h; path = TesseractOCR/include/tesseract/ccnontextdetect.h; sourceTree = "<group>"; };
+		A099985FF09B9E00CDE34FD167B3A74B /* otsuthr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = otsuthr.h; path = TesseractOCR/include/tesseract/otsuthr.h; sourceTree = "<group>"; };
+		A126CA5CD4B8A1B1B12DBA0247DE6135 /* blobclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobclass.h; path = TesseractOCR/include/tesseract/blobclass.h; sourceTree = "<group>"; };
+		A1D5FFDF19659B4437BFFEC4478AE426 /* hashfn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hashfn.h; path = TesseractOCR/include/tesseract/hashfn.h; sourceTree = "<group>"; };
+		A2034C614356C20B4A908F894ADE9C96 /* scanedg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanedg.h; path = TesseractOCR/include/tesseract/scanedg.h; sourceTree = "<group>"; };
+		A2D904C9C5F0D3DDBE531B74A183CE7B /* blkocc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blkocc.h; path = TesseractOCR/include/tesseract/blkocc.h; sourceTree = "<group>"; };
+		A30AAE152EFF000B1DED0A558C8C93A6 /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = TesseractOCR/include/leptonica/config_auto.h; sourceTree = "<group>"; };
+		A37484257D85F3B69459E5160A595225 /* NSError+VENCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+VENCore.m"; path = "VENCore/Categories/NSError+VENCore.m"; sourceTree = "<group>"; };
+		A384EC3C9581E9AB1282736FB8B21690 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A3A52BD9891C284D5B4FAFA9BAF022F5 /* intfeaturemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfeaturemap.h; path = TesseractOCR/include/tesseract/intfeaturemap.h; sourceTree = "<group>"; };
+		A3C28475654F239843384212D2B28A9C /* ipoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ipoints.h; path = TesseractOCR/include/tesseract/ipoints.h; sourceTree = "<group>"; };
+		A3D010352A3380C1A8F96407DC72EF22 /* intfeaturedist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfeaturedist.h; path = TesseractOCR/include/tesseract/intfeaturedist.h; sourceTree = "<group>"; };
+		A5F822E59C48343778A7A0893BEB2933 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		A786CD59FC3BF62376233A7A805549AB /* search_node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_node.h; path = TesseractOCR/include/tesseract/search_node.h; sourceTree = "<group>"; };
+		A7F077A686E47C9C7DCE136886CEE589 /* pitsync1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pitsync1.h; path = TesseractOCR/include/tesseract/pitsync1.h; sourceTree = "<group>"; };
+		A99CFEBDEEA90FF965B4D92E08F7596E /* kdtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree.h; path = TesseractOCR/include/tesseract/kdtree.h; sourceTree = "<group>"; };
+		A99DCC8262ED0599888C382716E6834F /* CMDQueryStringWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringWriter.h; path = CMDQueryStringSerialization/CMDQueryStringWriter.h; sourceTree = "<group>"; };
+		AA39F38D531FAE5F47453D85D54D2E36 /* ocrblock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrblock.h; path = TesseractOCR/include/tesseract/ocrblock.h; sourceTree = "<group>"; };
+		AA46FB875FE4379E7B90FF83E4B0D41E /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		AACD768397F3480DC6E7149D925C4089 /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = TesseractOCR/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		AB405A238F93A198AF88A24EE81EDFBD /* VENBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENBase64.m; path = "venmo-sdk/Encryption/VENBase64.m"; sourceTree = "<group>"; };
+		ABC47BC3F9EEEA048E2B5E66C062287F /* normalis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normalis.h; path = TesseractOCR/include/tesseract/normalis.h; sourceTree = "<group>"; };
+		ACD9EF71DB2134F4EBC3B861A41AE6C0 /* opencl_device_selection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opencl_device_selection.h; path = TesseractOCR/include/tesseract/opencl_device_selection.h; sourceTree = "<group>"; };
+		ACF65342EA94771B8BC8F7CF8C1532EF /* const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = const.h; path = TesseractOCR/include/tesseract/const.h; sourceTree = "<group>"; };
+		ADC4401825A06411A56C84F2A940E163 /* VENURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENURLProtocol.h; path = "venmo-sdk/URL Handling/VENURLProtocol.h"; sourceTree = "<group>"; };
+		AEA7A7BCBB80546C0EBAB8952C820E03 /* classifier_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classifier_base.h; path = TesseractOCR/include/tesseract/classifier_base.h; sourceTree = "<group>"; };
+		AEBDA3969319C016809E884AAB3AEED8 /* feature_hybrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_hybrid.h; path = TesseractOCR/include/tesseract/feature_hybrid.h; sourceTree = "<group>"; };
+		AED26E7BC536BEC94146EB89EEB143A3 /* pgedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pgedit.h; path = TesseractOCR/include/tesseract/pgedit.h; sourceTree = "<group>"; };
+		AF56D57828A942E754B5BB40A7BE36FF /* oldbasel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oldbasel.h; path = TesseractOCR/include/tesseract/oldbasel.h; sourceTree = "<group>"; };
+		AF943490D1AC98CCEB417190168EAAD7 /* shapetable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shapetable.h; path = TesseractOCR/include/tesseract/shapetable.h; sourceTree = "<group>"; };
+		AFB33B1DFD216ECC715B5C09E1121C1F /* mergenf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mergenf.h; path = TesseractOCR/include/tesseract/mergenf.h; sourceTree = "<group>"; };
+		B11E21802598D1BA126273B93DCDABF5 /* paragraphs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paragraphs.h; path = TesseractOCR/include/tesseract/paragraphs.h; sourceTree = "<group>"; };
+		B14CBF06669037AA4474E8D760C6D697 /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = TesseractOCR/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		B199FB336D843615EF53F092BC8B955F /* svmnode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = svmnode.h; path = TesseractOCR/include/tesseract/svmnode.h; sourceTree = "<group>"; };
+		B2C331C4A85168CF6C09F018E97500C9 /* fileerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileerr.h; path = TesseractOCR/include/tesseract/fileerr.h; sourceTree = "<group>"; };
+		B2FA009593D4A558D9D65725A59DBED5 /* ocrfeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrfeatures.h; path = TesseractOCR/include/tesseract/ocrfeatures.h; sourceTree = "<group>"; };
+		B37498C7A434EC18AA4BCDFD19C5D483 /* cutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cutil.h; path = TesseractOCR/include/tesseract/cutil.h; sourceTree = "<group>"; };
+		B3BB5840B4BDD2DDB6F5AB1247265D75 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		B40FF589C14229C26365099333506B29 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = TesseractOCR/include/tesseract/params.h; sourceTree = "<group>"; };
+		B481E1BAD8999CAC81751D0B94F7CD9C /* NSArray+VENCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+VENCore.h"; path = "VENCore/Categories/NSArray+VENCore.h"; sourceTree = "<group>"; };
+		B508B6F415F65E33892B9C07863EE27E /* feature_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_base.h; path = TesseractOCR/include/tesseract/feature_base.h; sourceTree = "<group>"; };
+		B5D687F62986F6EC28246CCD8E879175 /* word_altlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_altlist.h; path = TesseractOCR/include/tesseract/word_altlist.h; sourceTree = "<group>"; };
+		B68F202FE9D061D8540D9F5439DDFAFA /* colpartitionset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colpartitionset.h; path = TesseractOCR/include/tesseract/colpartitionset.h; sourceTree = "<group>"; };
+		B6FC6B7B0372775AA1ADB987CA48C082 /* VENCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VENCore-dummy.m"; sourceTree = "<group>"; };
+		B710C23FEFFBCAC91C1D6DA3C248F8A8 /* NSString+VENCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+VENCore.h"; path = "VENCore/Categories/NSString+VENCore.h"; sourceTree = "<group>"; };
+		B7AACFB06EEACB96537D0F0C8D1A8451 /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = TesseractOCR/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		B86E59E7FAD5FD0A28539B19B353E10D /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		B8CCB129B5BBB11DD278C7D1FDBD83F8 /* xform2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xform2d.h; path = TesseractOCR/include/tesseract/xform2d.h; sourceTree = "<group>"; };
+		B9B7C63AB6F1754AA28904D565C979D9 /* svutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = svutil.h; path = TesseractOCR/include/tesseract/svutil.h; sourceTree = "<group>"; };
+		BC422BCB3BE42AD14FAE264B30CB76F1 /* protos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = protos.h; path = TesseractOCR/include/tesseract/protos.h; sourceTree = "<group>"; };
+		BCB745A091125874250A07CB3B7A4D35 /* VENCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VENCore.xcconfig; sourceTree = "<group>"; };
+		BDEE7C5A13732792CF62A30B54B1CA29 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = TesseractOCR/include/tesseract/dict.h; sourceTree = "<group>"; };
+		BE63BEE657A921B3FA96573799949440 /* cutil_class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cutil_class.h; path = TesseractOCR/include/tesseract/cutil_class.h; sourceTree = "<group>"; };
+		C0D4F23F16AA97A46752B2E61CC62EB1 /* cube_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_utils.h; path = TesseractOCR/include/tesseract/cube_utils.h; sourceTree = "<group>"; };
+		C10284F2A6C6E8C2000781590D65531D /* UIDevice+VENCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+VENCore.m"; path = "VENCore/Categories/UIDevice+VENCore.m"; sourceTree = "<group>"; };
+		C12E69B33506276F012360AB3A0C7F08 /* intproto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intproto.h; path = TesseractOCR/include/tesseract/intproto.h; sourceTree = "<group>"; };
+		C373010847194746E9A42AF19D244F6F /* sortflts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sortflts.h; path = TesseractOCR/include/tesseract/sortflts.h; sourceTree = "<group>"; };
+		C37B3CC3DCB1C09792F6723AED6DBE19 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = TesseractOCR/include/tesseract/platform.h; sourceTree = "<group>"; };
+		C496BDF260A37460014142565C76EE84 /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = TesseractOCR/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		C500ECDD08083D6797FA194BC277AED6 /* colpartitiongrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colpartitiongrid.h; path = TesseractOCR/include/tesseract/colpartitiongrid.h; sourceTree = "<group>"; };
+		C5428F0BD9A030058668D0B9A69F85D2 /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = TesseractOCR/include/leptonica/bilateral.h; sourceTree = "<group>"; };
+		C5AD9B78B3F76191FBC8BABA8D17CC8F /* NSBundle+VenmoSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+VenmoSDK.m"; path = "venmo-sdk/Categories/NSBundle+VenmoSDK.m"; sourceTree = "<group>"; };
+		C5FB1BBED7AA48F72C4F6734BEF07620 /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = TesseractOCR/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		C833E6F7F90C560EA046C84599BE3639 /* tuning_params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tuning_params.h; path = TesseractOCR/include/tesseract/tuning_params.h; sourceTree = "<group>"; };
+		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C88FC14FCBD117E532A90E9AB7070F89 /* drawtord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = drawtord.h; path = TesseractOCR/include/tesseract/drawtord.h; sourceTree = "<group>"; };
+		CC92CE1293B52BEE9E05F0A036058AB8 /* edgblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = edgblob.h; path = TesseractOCR/include/tesseract/edgblob.h; sourceTree = "<group>"; };
+		CC9CDBEACD60230378AE1329C8FA6EDB /* boxword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxword.h; path = TesseractOCR/include/tesseract/boxword.h; sourceTree = "<group>"; };
+		CD1AF83165226CB3DECEAE24B93BE51E /* scrollview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scrollview.h; path = TesseractOCR/include/tesseract/scrollview.h; sourceTree = "<group>"; };
+		CD41EBA937589CBAC2552D2AE3C7D90F /* cutoffs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cutoffs.h; path = TesseractOCR/include/tesseract/cutoffs.h; sourceTree = "<group>"; };
+		CD69165AC795036F8133917A3688143A /* strtok_r.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strtok_r.h; path = TesseractOCR/include/tesseract/strtok_r.h; sourceTree = "<group>"; };
+		CDA52187E6FB97920A5057B75ED3DBD6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CDE95C65193D606F6E4719564879B464 /* cubeclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cubeclassifier.h; path = TesseractOCR/include/tesseract/cubeclassifier.h; sourceTree = "<group>"; };
+		CE126BA19F4653EDE4AE9F515A18D41E /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = TesseractOCR/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		CE1EB0F59919BF8A48FFFFC489A8C779 /* vecfuncs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vecfuncs.h; path = TesseractOCR/include/tesseract/vecfuncs.h; sourceTree = "<group>"; };
+		CE51BC3EEC1470D396202BBD48003E0F /* VENPermissionConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENPermissionConstants.h; path = "venmo-sdk/Supporting Files/VENPermissionConstants.h"; sourceTree = "<group>"; };
+		CECF534E95FB834D1E81698F2946009A /* cube_reco_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_reco_context.h; path = TesseractOCR/include/tesseract/cube_reco_context.h; sourceTree = "<group>"; };
+		CEFB0D43E4794C98A771094BCEA4FE28 /* cube_line_segmenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_line_segmenter.h; path = TesseractOCR/include/tesseract/cube_line_segmenter.h; sourceTree = "<group>"; };
+		CF772CC8721FCBC6BA7A633ED8DC957C /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = TesseractOCR/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		D1CC063FCA90BB3AD2A328AFDB1C88D3 /* UIDevice+VENCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+VENCore.h"; path = "VENCore/Categories/UIDevice+VENCore.h"; sourceTree = "<group>"; };
+		D33B37D0C267C0B360D88DD5F743EC78 /* seam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seam.h; path = TesseractOCR/include/tesseract/seam.h; sourceTree = "<group>"; };
+		D3FC20A421AA6BA2096FAEAC158CC076 /* lsterr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsterr.h; path = TesseractOCR/include/tesseract/lsterr.h; sourceTree = "<group>"; };
+		D4A0570E5911C00000BCD142BB5E8735 /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = TesseractOCR/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		D509762D4083F7509731566D015D7ED7 /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = TesseractOCR/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		D540543F2C6DC2F4DCB756CD78344B1B /* CMDQueryStringSerialization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMDQueryStringSerialization-prefix.pch"; sourceTree = "<group>"; };
+		D6A44D509D4E44481A5AA622EB2EB2AD /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		D6E6A58B2DC2881722EA1FB44D24AEC5 /* VENHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENHTTPResponse.h; path = VENCore/Networking/VENHTTPResponse.h; sourceTree = "<group>"; };
+		D88E9798630B4059BC7583FB196B7100 /* VENTransactionPayloadKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTransactionPayloadKeys.h; path = VENCore/Models/Transactions/VENTransactionPayloadKeys.h; sourceTree = "<group>"; };
+		D8E7701D8D591BE54C4F646614C21098 /* NSArray+VENCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+VENCore.m"; path = "VENCore/Categories/NSArray+VENCore.m"; sourceTree = "<group>"; };
+		D8E781A9D9B1B162A71E32F5DAEC9468 /* CMDQueryStringReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringReader.h; path = CMDQueryStringSerialization/CMDQueryStringReader.h; sourceTree = "<group>"; };
+		DA022BD753EA724C311A2EDAFD35D264 /* language_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = language_model.h; path = TesseractOCR/include/tesseract/language_model.h; sourceTree = "<group>"; };
+		DA62719042486F2AC46FE30E279DF2C2 /* rejctmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rejctmap.h; path = TesseractOCR/include/tesseract/rejctmap.h; sourceTree = "<group>"; };
+		DA717FA050EE1D1E9F1B3FB696C0B6A0 /* VENPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENPermission.m; path = "venmo-sdk/Models/VENPermission.m"; sourceTree = "<group>"; };
+		DA742EF0094F8731AB782F0CC99F16A5 /* measure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measure.h; path = TesseractOCR/include/tesseract/measure.h; sourceTree = "<group>"; };
+		DAB81A63CF17240BE36AC14BBE1FF234 /* libVENCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVENCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB85859A773EF8A6AD2BC8E32C7F3CA0 /* commontraining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commontraining.h; path = TesseractOCR/include/tesseract/commontraining.h; sourceTree = "<group>"; };
+		DC7858A3B25951E820EC080C9D96E437 /* workingpartset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = workingpartset.h; path = TesseractOCR/include/tesseract/workingpartset.h; sourceTree = "<group>"; };
+		DF3DD8DAEE28D6486DDDBD1329EB8025 /* NSDictionary+VENCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+VENCore.m"; path = "VENCore/Categories/NSDictionary+VENCore.m"; sourceTree = "<group>"; };
+		DFBCE983DA7D9D3FCCF3E362AA74670A /* topitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = topitch.h; path = TesseractOCR/include/tesseract/topitch.h; sourceTree = "<group>"; };
+		E0B116F629CD980DCD77E9F087AA52FF /* NSBundle+VenmoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+VenmoSDK.h"; path = "venmo-sdk/Categories/NSBundle+VenmoSDK.h"; sourceTree = "<group>"; };
+		E16F184BB828EA3C906AEB62EA8F5B79 /* VENHTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENHTTP.m; path = VENCore/Networking/VENHTTP.m; sourceTree = "<group>"; };
+		E17B43B51D5F599E27A7DFBD6D235D0B /* tlog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tlog.h; path = TesseractOCR/include/tesseract/tlog.h; sourceTree = "<group>"; };
+		E1D2F67DEABBAD49BD1697FADA7FCCC4 /* NSError+VenmoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+VenmoSDK.h"; path = "venmo-sdk/Categories/NSError+VenmoSDK.h"; sourceTree = "<group>"; };
+		E1DA40EE46831AF643DF4140E90A67FA /* globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globals.h; path = TesseractOCR/include/tesseract/globals.h; sourceTree = "<group>"; };
+		E233519C6BB2F660D9CF11758F6C69CA /* linlsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linlsq.h; path = TesseractOCR/include/tesseract/linlsq.h; sourceTree = "<group>"; };
+		E26D13EEE58EEE595554A3A2C3C2DF34 /* tessedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessedit.h; path = TesseractOCR/include/tesseract/tessedit.h; sourceTree = "<group>"; };
+		E2AC73314045B4C6FAA1D0FA93828E55 /* CMDQueryStringArrayTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringArrayTransformer.m; path = CMDQueryStringSerialization/CMDQueryStringArrayTransformer.m; sourceTree = "<group>"; };
+		E2D92FDC235321567F5F65FAFA63FE4C /* libCMDQueryStringSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCMDQueryStringSerialization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E300E275C1F24D4B9A171D8F5EA0038C /* NSError+VenmoSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+VenmoSDK.m"; path = "venmo-sdk/Categories/NSError+VenmoSDK.m"; sourceTree = "<group>"; };
+		E4C56219DBC1B6211DB25BFA62A31408 /* cube_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_const.h; path = TesseractOCR/include/tesseract/cube_const.h; sourceTree = "<group>"; };
+		E52D2BA004E6EDF39EFF1EB9C6800DD5 /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = TesseractOCR/include/tesseract/capi.h; sourceTree = "<group>"; };
+		E54B61A8B1F4C39538E66B121DE2160A /* NSString+MD5Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5Addition.m"; path = "venmo-sdk/Categories/NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		E54E98F7D274DEE94921FCA9452E2040 /* VENErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENErrors.m; path = "venmo-sdk/Supporting Files/VENErrors.m"; sourceTree = "<group>"; };
+		E6D046B439EEC3D44A9BD4A21F6BDB60 /* CMDQueryStringArrayTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringArrayTransformer.h; path = CMDQueryStringSerialization/CMDQueryStringArrayTransformer.h; sourceTree = "<group>"; };
+		E6F38440CAF45D0994687B8D486D22D5 /* tessbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessbox.h; path = TesseractOCR/include/tesseract/tessbox.h; sourceTree = "<group>"; };
+		E72BEF0A80DC3D120CD9DB7B5DE06AD0 /* bitvec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitvec.h; path = TesseractOCR/include/tesseract/bitvec.h; sourceTree = "<group>"; };
+		E7EA2246AEAAB41F225E30A840AC2660 /* CMDQueryStringStringTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringStringTransformer.h; path = CMDQueryStringSerialization/CMDQueryStringStringTransformer.h; sourceTree = "<group>"; };
+		EA4137A7E197EC5E67C0649B4CB95ED8 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = TesseractOCR/include/leptonica/heap.h; sourceTree = "<group>"; };
+		EBC5926D2DFB38C25861B2562E880798 /* normmatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normmatch.h; path = TesseractOCR/include/tesseract/normmatch.h; sourceTree = "<group>"; };
+		EC90C555EB3C8541AB7C0D1C11D6889B /* basedir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basedir.h; path = TesseractOCR/include/tesseract/basedir.h; sourceTree = "<group>"; };
+		ECB3B370DCA5746FB4EF950313E4C6A2 /* mathfix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mathfix.h; path = TesseractOCR/include/tesseract/mathfix.h; sourceTree = "<group>"; };
+		EE897DC4AD919AD58DA810C75091EFFB /* Venmo-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Venmo-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		EECF5F23FFF0A3CE9F6ED69BE347F094 /* liblept.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblept.a; path = TesseractOCR/lib/liblept.a; sourceTree = "<group>"; };
+		EFA6673E87EDF7C09389495F6B7E8E91 /* tablefind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tablefind.h; path = TesseractOCR/include/tesseract/tablefind.h; sourceTree = "<group>"; };
+		F049D279AEEABEC91FE1F246CA37FB35 /* ccutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccutil.h; path = TesseractOCR/include/tesseract/ccutil.h; sourceTree = "<group>"; };
+		F05FFF076A08EB62FF41AF68930B2AE6 /* trie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trie.h; path = TesseractOCR/include/tesseract/trie.h; sourceTree = "<group>"; };
+		F097012605DC7E4E264C8E88B611F82A /* cjkpitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cjkpitch.h; path = TesseractOCR/include/tesseract/cjkpitch.h; sourceTree = "<group>"; };
+		F18D71A7918D5B8B89CA2A5180A3FCC6 /* NSDictionary+VenmoSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+VenmoSDK.m"; path = "venmo-sdk/Categories/NSDictionary+VenmoSDK.m"; sourceTree = "<group>"; };
+		F2525E5D0E6E069F508C32317097800C /* Venmo-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Venmo-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		F2E868D2570FDF275338A5578801467A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F428F54933349363CF2270D66FA81971 /* conv_net_classifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conv_net_classifier.h; path = TesseractOCR/include/tesseract/conv_net_classifier.h; sourceTree = "<group>"; };
+		F47515948D2C95D8A4BA53F02A50DBF5 /* plotedges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plotedges.h; path = TesseractOCR/include/tesseract/plotedges.h; sourceTree = "<group>"; };
+		F500717442A1AB862ECC5F475FE0EF0A /* oldlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oldlist.h; path = TesseractOCR/include/tesseract/oldlist.h; sourceTree = "<group>"; };
+		F5CCB1B0073DB8C790643A797CE4D54E /* wordseg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wordseg.h; path = TesseractOCR/include/tesseract/wordseg.h; sourceTree = "<group>"; };
+		F5EE4A2D9741C408F26A4A11D8A603FF /* VENCreateTransactionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENCreateTransactionRequest.m; path = VENCore/Models/Transactions/VENCreateTransactionRequest.m; sourceTree = "<group>"; };
+		F66C5FA122B663369DABB0F491073805 /* CMDQueryStringNumberTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CMDQueryStringNumberTransformer.h; path = CMDQueryStringSerialization/CMDQueryStringNumberTransformer.h; sourceTree = "<group>"; };
+		F67E1C83288088AD4E2DA72B07894DFD /* VENHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENHTTPResponse.m; path = VENCore/Networking/VENHTTPResponse.m; sourceTree = "<group>"; };
+		F67E5623663502CB38C735C0B2CC825A /* CMDQueryStringNumberTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringNumberTransformer.m; path = CMDQueryStringSerialization/CMDQueryStringNumberTransformer.m; sourceTree = "<group>"; };
+		F68B4092328EEB68FC7363CDCA80DF49 /* tordmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tordmain.h; path = TesseractOCR/include/tesseract/tordmain.h; sourceTree = "<group>"; };
+		F69EA0E660A662B6DA79E6F778183C34 /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = TesseractOCR/include/tesseract/matrix.h; sourceTree = "<group>"; };
+		F6E32BD5A32334F32DA7D53F257B778A /* tessopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessopt.h; path = TesseractOCR/include/tesseract/tessopt.h; sourceTree = "<group>"; };
+		F7036BB77B8E635999A80FC160F9A673 /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		F750FF619E08C59F3CCD43B93722C47B /* tesseractclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseractclass.h; path = TesseractOCR/include/tesseract/tesseractclass.h; sourceTree = "<group>"; };
+		F799213660F89A883E14CC58361F09AD /* openclwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openclwrapper.h; path = TesseractOCR/include/tesseract/openclwrapper.h; sourceTree = "<group>"; };
+		F8A5350BF207006B13419F8A219FEA99 /* gradechop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gradechop.h; path = TesseractOCR/include/tesseract/gradechop.h; sourceTree = "<group>"; };
+		F95B84E0423B65413F1767AEEBA20BF9 /* errorcounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errorcounter.h; path = TesseractOCR/include/tesseract/errorcounter.h; sourceTree = "<group>"; };
+		F96C175A0E2FD0235D3C0A49372E0D78 /* chopper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chopper.h; path = TesseractOCR/include/tesseract/chopper.h; sourceTree = "<group>"; };
+		FA429FB49AEC64C62DECA2DD65FF98A7 /* output.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = output.h; path = TesseractOCR/include/tesseract/output.h; sourceTree = "<group>"; };
+		FA47E58A5DBD1C62A1721AA93EC1B09B /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = TesseractOCR/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		FAAB438DE8D5F64B4A2F585184DEBE03 /* string_32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_32.h; path = TesseractOCR/include/tesseract/string_32.h; sourceTree = "<group>"; };
+		FAF184828DFEE9DD43F7DD33697D0132 /* crakedge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crakedge.h; path = TesseractOCR/include/tesseract/crakedge.h; sourceTree = "<group>"; };
+		FB2D37A585A0C5B0A3AEEEC6B54CD144 /* CMDQueryStringWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CMDQueryStringWriter.m; path = CMDQueryStringSerialization/CMDQueryStringWriter.m; sourceTree = "<group>"; };
+		FB74AC278C6117DAE4F9FCE88FC98B3F /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		FB98FECC3AE678521B1D160F620A81B9 /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = TesseractOCR/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		FBE75F15FC33700457ABE70672B29550 /* doubleptr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = doubleptr.h; path = TesseractOCR/include/tesseract/doubleptr.h; sourceTree = "<group>"; };
+		FC3E58AB4DDF401659270214670826E3 /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = TesseractOCR/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		FD04DA9140507D04271815F335E2D85E /* elst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = elst.h; path = TesseractOCR/include/tesseract/elst.h; sourceTree = "<group>"; };
+		FD867530F6FF3F04FC422A9D57BBCBA0 /* char_altlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_altlist.h; path = TesseractOCR/include/tesseract/char_altlist.h; sourceTree = "<group>"; };
+		FDD19031529E99C5289FE7CBCA088EAA /* errcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = TesseractOCR/include/tesseract/errcode.h; sourceTree = "<group>"; };
+		FDF985E55B3D76E7401AA15775A31E55 /* VENTransaction+VenmoSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "VENTransaction+VenmoSDK.m"; path = "venmo-sdk/Categories/VENTransaction+VenmoSDK.m"; sourceTree = "<group>"; };
+		FE7712058F6EC4F337C5E39E941C4322 /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = TesseractOCR/include/tesseract/render.h; sourceTree = "<group>"; };
+		FE794858F4F5D52FB7BB4DCF3FCAE18E /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = TesseractOCR/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		FE8D6A4A6A9CF1F11E35351835D560DB /* VENSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENSession.h; path = "venmo-sdk/Models/VENSession.h"; sourceTree = "<group>"; };
+		FEF003299EB2587A2EBF3F89798074AB /* indexmapbidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = indexmapbidi.h; path = TesseractOCR/include/tesseract/indexmapbidi.h; sourceTree = "<group>"; };
+		FF8DF433516F77E86D6D1B76E572FC22 /* neuron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = neuron.h; path = TesseractOCR/include/tesseract/neuron.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FF8F92A6D2B467182A79C8F27DB097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89858FB145886DB710FB73448F45776 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA20FE1CEADCA175B25753C46DD5161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F09D7947A335925608B3EE1AB60353 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9EF3A26F65D8D71C7EBA8305C5FB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD334BEBD54C6B4200386ED62B1BECF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9E5BD1BD5D50D2221B6349AD589435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95651466E8ACED25B28835EF07732B6 /* Foundation.framework in Frameworks */,
+				F8E4C8DB5EEAFFD4413F5B139B981CCD /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF37661E421E36FC0BF44E22EADBFB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155AF3C3235A14495864B4D93AA08644 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E05B44F7ACC4414298A19BE7CD587D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6991CAAFAAE8D009F4200B3CA74FB65E /* CMDQueryStringSerialization */,
+				957D21951650BD50D4159A4D1D75F7AB /* SSKeychain */,
+				1847633F6A4285BBCBE27F3D6A378629 /* TesseractOCRiOS */,
+				9475E507CC2CDAA68EED45CC048ACE0B /* VENCore */,
+				4E967F20699BE1D4F46AD8E243F85C12 /* Venmo-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1847633F6A4285BBCBE27F3D6A378629 /* TesseractOCRiOS */ = {
+			isa = PBXGroup;
+			children = (
+				2E6C2E4EC0029F9970957343EEF22331 /* Tesseract.h */,
+				58863CA2150F5B22E1BF14A96AF0BF77 /* TesseractOCR.h */,
+				452FEF5CC5594B62E1845E45831925EE /* UIImage+Filters.h */,
+				3D499D30E3AEC0B302194CBD3E106A59 /* adaptive.h */,
+				1089778010693F5475F71531C7A58128 /* alignedblob.h */,
+				CF772CC8721FCBC6BA7A633ED8DC957C /* allheaders.h */,
+				7079B135E23D0C96525EEB086157699D /* alltypes.h */,
+				812D0B1D9C09EF8FE25E4C96E3A4FE00 /* altlist.h */,
+				9F4C3640B283CEE41AE0B2D5340141D7 /* ambigs.h */,
+				FA47E58A5DBD1C62A1721AA93EC1B09B /* apitypes.h */,
+				2DB528F0B4829ED81650AC8FECCAE08A /* array.h */,
+				0FA6A8E1C908C4E2A6A0713EFA81FDF7 /* arrayaccess.h */,
+				474E41F7D965DD2AE3F4114BBDF04367 /* associate.h */,
+				8A7EDE5AE90ABCC0C4FD2F9F311865C9 /* baseapi.h */,
+				EC90C555EB3C8541AB7C0D1C11D6889B /* basedir.h */,
+				87C827F7A10D5419928A55791AF76199 /* baselinedetect.h */,
+				46BD8D9FA4C16FD7327506B4CC13D866 /* bbgrid.h */,
+				12435D08CF818C303C0FAE675B278D8A /* bbuffer.h */,
+				9495B5BBCEEE4C6528DD2CB679D6E6BA /* beam_search.h */,
+				C5428F0BD9A030058668D0B9A69F85D2 /* bilateral.h */,
+				3BD7A711D1BF0C14DA88B61C320FF214 /* bits16.h */,
+				E72BEF0A80DC3D120CD9DB7B5DE06AD0 /* bitvec.h */,
+				002C489C5A91D2040932CC835CA796B3 /* bitvector.h */,
+				430B8113D10149CDDCA90212C95BFFB4 /* blamer.h */,
+				1B8C7A08E7A8A697CB9F5BA07E1ECF1B /* blckerr.h */,
+				A2D904C9C5F0D3DDBE531B74A183CE7B /* blkocc.h */,
+				0B000C1AAC0C58234C634457E32EF95F /* blobbox.h */,
+				A126CA5CD4B8A1B1B12DBA0247DE6135 /* blobclass.h */,
+				52D92521236E12463687CBC270F0BF1C /* blobgrid.h */,
+				5DF75BD2A0182787638BADF269519E35 /* blobs.h */,
+				603148FAA52FE6A38812D8582F774519 /* blread.h */,
+				19CD9A4558B6218B2C8F89CC06C07B81 /* bmf.h */,
+				0325438B8A380614ADD5363025F8D356 /* bmp.h */,
+				805DFEE4B65592A918F28CA65589511F /* bmp_8.h */,
+				2A250EE937E3ABCDCD3E6DDF4840DAE6 /* boxchar.h */,
+				91F9350F4337E5A21F6DF620AF63DBDB /* boxread.h */,
+				CC9CDBEACD60230378AE1329C8FA6EDB /* boxword.h */,
+				6D7B6015105C2807353728389AF14132 /* cached_file.h */,
+				6E453D5BC3E7A706F7F88609B5EFE314 /* callcpp.h */,
+				E52D2BA004E6EDF39EFF1EB9C6800DD5 /* capi.h */,
+				7C101D2520981426FC2FBB311DBADDA3 /* ccbord.h */,
+				A02F672F532C681A3CCB445BFDF65F4D /* ccnontextdetect.h */,
+				2625AA239AC9416D4FED74CE990F3554 /* ccstruct.h */,
+				F049D279AEEABEC91FE1F246CA37FB35 /* ccutil.h */,
+				FD867530F6FF3F04FC422A9D57BBCBA0 /* char_altlist.h */,
+				4C44ADC7D665030A2CEB943280D15B97 /* char_bigrams.h */,
+				6C5EADB46ABBEDBB9BFBC3C5F2159BD9 /* char_samp.h */,
+				0A9444243B6885BC26CDB597530AE8F1 /* char_samp_enum.h */,
+				70C47FD0ED51E8F0BD7CEC4DDF99B307 /* char_samp_set.h */,
+				0CCC427BF21D3017442196B31F89B0FD /* char_set.h */,
+				93DBBBCC4FA30D7040CC75047A12E36A /* chop.h */,
+				F96C175A0E2FD0235D3C0A49372E0D78 /* chopper.h */,
+				F097012605DC7E4E264C8E88B611F82A /* cjkpitch.h */,
+				AEA7A7BCBB80546C0EBAB8952C820E03 /* classifier_base.h */,
+				3372C29C0AFC0BBE50659E05B410DB7C /* classifier_factory.h */,
+				05EFCB0E11316355AFDA21593C4E84A6 /* classify.h */,
+				1B3C6F8618D2B509875C1F38C6EAA42C /* clst.h */,
+				5FAFC5648C59EE379043491B66E520B3 /* cluster.h */,
+				957E5243E5F0A6199AF2351E13BD99B1 /* clusttool.h */,
+				4F612A08AE6E45163E6587CAAD3D3970 /* colfind.h */,
+				14F078DF8F66180299B936D91961C58D /* colpartition.h */,
+				C500ECDD08083D6797FA194BC277AED6 /* colpartitiongrid.h */,
+				B68F202FE9D061D8540D9F5439DDFAFA /* colpartitionset.h */,
+				528DB4D1941220B37E04081890CAE2E3 /* commandlineflags.h */,
+				DB85859A773EF8A6AD2BC8E32C7F3CA0 /* commontraining.h */,
+				21C89C30D432FFE69875FDFD70F513AD /* con_comp.h */,
+				A30AAE152EFF000B1DED0A558C8C93A6 /* config_auto.h */,
+				891580FE76089286E6493DDAB24D6E3C /* config_auto.h */,
+				ACF65342EA94771B8BC8F7CF8C1532EF /* const.h */,
+				97E8A75AEEA5CC69E06D2731A42C8C03 /* control.h */,
+				F428F54933349363CF2270D66FA81971 /* conv_net_classifier.h */,
+				8CC2E533C0B3623C4F7FE87355CBB5FB /* coutln.h */,
+				FAF184828DFEE9DD43F7DD33697D0132 /* crakedge.h */,
+				E4C56219DBC1B6211DB25BFA62A31408 /* cube_const.h */,
+				2080AC5C38B072A8E8A94904BDA9BFD7 /* cube_line_object.h */,
+				CEFB0D43E4794C98A771094BCEA4FE28 /* cube_line_segmenter.h */,
+				67F6F3D42CF8DC5DF967294D38F195E0 /* cube_object.h */,
+				CECF534E95FB834D1E81698F2946009A /* cube_reco_context.h */,
+				15A2EEAB1D0718BED1EAE10BA6E154F8 /* cube_search_object.h */,
+				0F47244BD82219E3F0F235747CB127B6 /* cube_tuning_params.h */,
+				C0D4F23F16AA97A46752B2E61CC62EB1 /* cube_utils.h */,
+				CDE95C65193D606F6E4719564879B464 /* cubeclassifier.h */,
+				B37498C7A434EC18AA4BCDFD19C5D483 /* cutil.h */,
+				BE63BEE657A921B3FA96573799949440 /* cutil_class.h */,
+				CD41EBA937589CBAC2552D2AE3C7D90F /* cutoffs.h */,
+				96B5172855AC5473203E606BC7079C5B /* danerror.h */,
+				2E438815E33FBDF95E20E99ABD10E826 /* dawg.h */,
+				6E933DA7976D08B35783B71C27BBE04A /* dawg_cache.h */,
+				8B3A3765D40849EF3A77AF261A87BCEC /* degradeimage.h */,
+				80298BA41DE6C7909672853B102F9825 /* detlinefit.h */,
+				97BBA7A299F244C5F89147A64DEAC850 /* devanagari_processing.h */,
+				C496BDF260A37460014142565C76EE84 /* dewarp.h */,
+				BDEE7C5A13732792CF62A30B54B1CA29 /* dict.h */,
+				3DF92492906D408E9B2718183C2D94D0 /* docqual.h */,
+				FBE75F15FC33700457ABE70672B29550 /* doubleptr.h */,
+				78BAC99FC08BB3283F356DF4586E9BF0 /* dppoint.h */,
+				0FC455F396152E62124FE6D8F1C133EE /* drawedg.h */,
+				497851650ABEB54406F128CEB7E0859A /* drawfx.h */,
+				C88FC14FCBD117E532A90E9AB7070F89 /* drawtord.h */,
+				CC92CE1293B52BEE9E05F0A036058AB8 /* edgblob.h */,
+				1FBB7A145E3DBF00D9FE4D912CCC8EEF /* edgloop.h */,
+				49867D75444159ECC6E7FF00DACA9074 /* efio.h */,
+				FD04DA9140507D04271815F335E2D85E /* elst.h */,
+				6E94ACB200BB4719D79BD4FBB74FF863 /* elst2.h */,
+				9F3E3BA99AEB42CD49CC1E6962B21669 /* emalloc.h */,
+				D4A0570E5911C00000BCD142BB5E8735 /* endianness.h */,
+				624D10BB543C8A8916A6375CC69B6845 /* environ.h */,
+				8BED1A708BC8EEBDB86F9FF8BCBA0BCD /* equationdetect.h */,
+				25CE41FCCAB41C15725A456401D55C90 /* equationdetectbase.h */,
+				FDD19031529E99C5289FE7CBCA088EAA /* errcode.h */,
+				F95B84E0423B65413F1767AEEBA20BF9 /* errorcounter.h */,
+				4791CBB7C39BE31E95C85B685D2C07B6 /* extern.h */,
+				9546A2CDB5244AE5243AB3CD3F641B56 /* extract.h */,
+				17149BAFD82BB8F383C3A15EB923A5F4 /* featdefs.h */,
+				B508B6F415F65E33892B9C07863EE27E /* feature_base.h */,
+				170EAED9EE12239402E257584EA147D3 /* feature_bmp.h */,
+				028EDD6726291704FF61C45DEB0D7AD6 /* feature_chebyshev.h */,
+				AEBDA3969319C016809E884AAB3AEED8 /* feature_hybrid.h */,
+				B2C331C4A85168CF6C09F018E97500C9 /* fileerr.h */,
+				60875BA776BA005B8EB231BDB49CB624 /* fileio.h */,
+				11043A114079FEC4600ECD68436CC0BF /* findseam.h */,
+				9134C83D2918ADF2891E68A27EA9CCB4 /* fixspace.h */,
+				682774F8130F44BCDC2B20A752A44123 /* flexfx.h */,
+				3B81BAED3BE091157C707C06E5CA4530 /* float2int.h */,
+				1D2CAA795E5ED9A129940364D41B933A /* fontinfo.h */,
+				3437E72B4B7A631EE04A88C474044E31 /* fpchop.h */,
+				8490C397A5B6DBF618080B8FF818165B /* fpoint.h */,
+				4F7E3C28B578BE0203192C8D3CA7B7EA /* freelist.h */,
+				3590F8CE7A8ACA2EF934070BFA74176F /* freetype.h */,
+				2DE1F06868D4B4779DBB3B4DD611CF41 /* fxdefs.h */,
+				18F7FDD92E942DE9697648DA41E2E123 /* gap_map.h */,
+				163D4778246FAAA1C71DB0A492B01D28 /* genblob.h */,
+				7A3A020F42A183006D624B4D710F11D5 /* genericheap.h */,
+				AACD768397F3480DC6E7149D925C4089 /* genericvector.h */,
+				36B0C3180FD7F68DE6027F3D16328348 /* gettimeofday.h */,
+				40D7DC9F0FE24F2CD2E20690E7FA2070 /* globaloc.h */,
+				E1DA40EE46831AF643DF4140E90A67FA /* globals.h */,
+				3CB1C8CF4811660DC0ED5625FEED894C /* gplot.h */,
+				F8A5350BF207006B13419F8A219FEA99 /* gradechop.h */,
+				A1D5FFDF19659B4437BFFEC4478AE426 /* hashfn.h */,
+				EA4137A7E197EC5E67C0649B4CB95ED8 /* heap.h */,
+				5642B749D53B469D4FDDF4467934E33D /* helpers.h */,
+				77DFD629B97FA961ECABFC8ECC23B7ED /* host.h */,
+				5D7F3F7202967CD66B4F5F1E7DF6DB1C /* hpdsizes.h */,
+				6A80B36BD91C2CDB9EA65DB3AA71D4D9 /* hybrid_neural_net_classifier.h */,
+				40F77B48B58290ACBBAACE6423FBB2C4 /* icuerrorcode.h */,
+				1BFBCD47438C912AB1B9FF7507C3AC25 /* imagefind.h */,
+				8C227C0C3DBA0D490ABE03D3927D501E /* imageio.h */,
+				FEF003299EB2587A2EBF3F89798074AB /* indexmapbidi.h */,
+				7AA63220521D0192D31D2D1FC1E6BED8 /* input_file_buffer.h */,
+				A3D010352A3380C1A8F96407DC72EF22 /* intfeaturedist.h */,
+				A3A52BD9891C284D5B4FAFA9BAF022F5 /* intfeaturemap.h */,
+				50CB9042191929EECE1ECFDFAAE2BEB2 /* intfeaturespace.h */,
+				1CABDE1543329B403A2CBC4253BCA706 /* intfx.h */,
+				651C50368FC28D20AEE0799123E4353A /* intmatcher.h */,
+				C12E69B33506276F012360AB3A0C7F08 /* intproto.h */,
+				A3C28475654F239843384212D2B28A9C /* ipoints.h */,
+				CE126BA19F4653EDE4AE9F515A18D41E /* jbclass.h */,
+				9775071E16A156C0C052308145A36B93 /* kdpair.h */,
+				A99CFEBDEEA90FF965B4D92E08F7596E /* kdtree.h */,
+				92A4188B7C6911946023C0E72498D91D /* lang_mod_edge.h */,
+				22BD3F6DB0E6BB53A85D38A77FAF4271 /* lang_model.h */,
+				DA022BD753EA724C311A2EDAFD35D264 /* language_model.h */,
+				FB98FECC3AE678521B1D160F620A81B9 /* leptwin.h */,
+				9DFEC8F028776B487E0400EC91242849 /* ligature_table.h */,
+				9D8A19B57FA5C28EE47DBFD1C56F051B /* linefind.h */,
+				E233519C6BB2F660D9CF11758F6C69CA /* linlsq.h */,
+				1D7E86025218596F54BA58071487085C /* list.h */,
+				4E62D5F0123EAAD72E64ABA7995710D0 /* listio.h */,
+				926FA6AEB18EFC74671EDFC369865C34 /* lm_consistency.h */,
+				28DF8C5661B2BB9AEB8AEBDD2B695FB4 /* lm_pain_points.h */,
+				359DD9C0809544EE303FDFA26E3CDE89 /* lm_state.h */,
+				D3FC20A421AA6BA2096FAEAC158CC076 /* lsterr.h */,
+				2600F5F3FF149CBB168BBD9557329E2C /* ltrresultiterator.h */,
+				4E2E0CE96B0599CB700697D17ACCF913 /* makechop.h */,
+				52C1419DD5F00BD04929B987706EEC38 /* makerow.h */,
+				4211E1BBDD88FBCC27B58E2CAE46634F /* mastertrainer.h */,
+				8A64FE8C07033AB8AAF4D3F2D9A23060 /* matchdefs.h */,
+				ECB3B370DCA5746FB4EF950313E4C6A2 /* mathfix.h */,
+				F69EA0E660A662B6DA79E6F778183C34 /* matrix.h */,
+				DA742EF0094F8731AB782F0CC99F16A5 /* measure.h */,
+				7743B25DAA5012D73DBE6FE106964932 /* memry.h */,
+				AFB33B1DFD216ECC715B5C09E1121C1F /* mergenf.h */,
+				7B17C6A6F6C02A4958B7A4672DC0221A /* mf.h */,
+				630196D0ADBCFA7C144F08F4D0171226 /* mfdefs.h */,
+				1433AF608287A22C62AEC3B376776ACA /* mfoutline.h */,
+				0C6D708BFA56044737E6F35527A75B3E /* mfx.h */,
+				943EEF197F43E5DF0EA24C3CA9C6EE71 /* mod128.h */,
+				1355B6E4871BA1D38BAE55C089D3A426 /* morph.h */,
+				217E34C4D6663622C3B12A96A0388B62 /* mutableiterator.h */,
+				2D793AD77797D50A2E85FF65261F7A7C /* ndminx.h */,
+				3A25A37FA5965BC0ADBB9BD9CEB9A2CC /* neural_net.h */,
+				FF8DF433516F77E86D6D1B76E572FC22 /* neuron.h */,
+				ABC47BC3F9EEEA048E2B5E66C062287F /* normalis.h */,
+				4CDE017085AB9EA4DDB4208C4CEFA327 /* normfeat.h */,
+				EBC5926D2DFB38C25861B2562E880798 /* normmatch.h */,
+				1C5A1CC09D660BD8F8C2B407D5310746 /* normstrngs.h */,
+				01F341514BFB3C57CCE6EAFCF9D41DA8 /* nwmain.h */,
+				1B169DEA73720F603EA43BE24EB0D406 /* object_cache.h */,
+				60602CCF01DDA7310011A22782DACEFA /* oclkernels.h */,
+				AA39F38D531FAE5F47453D85D54D2E36 /* ocrblock.h */,
+				7F1FC8F282BAB603FFCBA2C695D0CBB0 /* ocrclass.h */,
+				B2FA009593D4A558D9D65725A59DBED5 /* ocrfeatures.h */,
+				2F9B558CDF0CE08D0753769923CC0E93 /* ocrpara.h */,
+				0AFB011B1CBB1CAD364FAAFC1BB5714B /* ocrrow.h */,
+				AF56D57828A942E754B5BB40A7BE36FF /* oldbasel.h */,
+				F500717442A1AB862ECC5F475FE0EF0A /* oldlist.h */,
+				56FB904016AEA0C1D94C8D1DCA11E79D /* olutil.h */,
+				ACD9EF71DB2134F4EBC3B861A41AE6C0 /* opencl_device_selection.h */,
+				F799213660F89A883E14CC58361F09AD /* openclwrapper.h */,
+				58462F74A00F4C95B65FB1E7A7A75D5A /* osdetect.h */,
+				A099985FF09B9E00CDE34FD167B3A74B /* otsuthr.h */,
+				49D08A27AB72EC4A6DA6AE65217098C3 /* outfeat.h */,
+				23FCBAE996B35C2C96DD385DFD05442F /* outlines.h */,
+				FA429FB49AEC64C62DECA2DD65FF98A7 /* output.h */,
+				FC3E58AB4DDF401659270214670826E3 /* pageiterator.h */,
+				227895EDA7AA15836FDC5DC8B6E2AEAD /* pageres.h */,
+				1C73170BBD4A0E068CFCC10AD28C105D /* pango_font_info.h */,
+				B11E21802598D1BA126273B93DCDABF5 /* paragraphs.h */,
+				97E4D950B43DDFA9ECE58D889EA328E9 /* paragraphs_internal.h */,
+				B40FF589C14229C26365099333506B29 /* params.h */,
+				0BDCFC82AB92D350D5BA184FC90A268D /* params_model.h */,
+				087C4E022D7902BAA9E3BC26489968FB /* params_training_featdef.h */,
+				412624051A8F14E3545EC3927451D762 /* paramsd.h */,
+				43ABEE7BF6EA24DD888F9FF67B961EED /* pdblock.h */,
+				AED26E7BC536BEC94146EB89EEB143A3 /* pgedit.h */,
+				2DC494E8252F970007925A7BBEE38431 /* picofeat.h */,
+				587CA072DAACADAC367189340AA3D48C /* pithsync.h */,
+				A7F077A686E47C9C7DCE136886CEE589 /* pitsync1.h */,
+				0F55DF32A7A15FA65D2F0C5EC330E60D /* pix.h */,
+				C37B3CC3DCB1C09792F6723AED6DBE19 /* platform.h */,
+				F47515948D2C95D8A4BA53F02A50DBF5 /* plotedges.h */,
+				9D249BB757F89F86B526284942DBEAAA /* points.h */,
+				4C51397876E2936CB67194E7F8FE3689 /* polyaprx.h */,
+				81C46A807F7C1B96B55BC67301A7D8D9 /* polyblk.h */,
+				BC422BCB3BE42AD14FAE264B30CB76F1 /* protos.h */,
+				31AAC777AE0A66A79E7822BD27D66DDA /* ptra.h */,
+				FE794858F4F5D52FB7BB4DCF3FCAE18E /* publictypes.h */,
+				04E6863F0131890B5A000DFE86B186C9 /* qrsequence.h */,
+				5B5728430A87355D84FBA6823ACFC855 /* quadlsq.h */,
+				7826316765B383B8C9E54602EAC1635E /* quadratc.h */,
+				1B3BB6D7BB1CB86ACA40E85DDCF331F9 /* queue.h */,
+				61675072104732C332E4F67F3FC554AA /* quspline.h */,
+				1A8363FB997477E1DA7A077327605226 /* ratngs.h */,
+				B14CBF06669037AA4474E8D760C6D697 /* readbarcode.h */,
+				16C1946E4DBEFED70010F9F978DED732 /* recog.h */,
+				8BFD400BA1425623AB89598350CF2D49 /* rect.h */,
+				2A889C6BAD3CFBB5D9E1B51360F6EA56 /* regutils.h */,
+				DA62719042486F2AC46FE30E279DF2C2 /* rejctmap.h */,
+				800940A48D8E00B064B56F28E6DC0F34 /* reject.h */,
+				FE7712058F6EC4F337C5E39E941C4322 /* render.h */,
+				372BCC0B11A4646A89F112C52C14FA11 /* renderer.h */,
+				1DDD757859F285887B12CCB7CC70A0E6 /* resource.h */,
+				B7AACFB06EEACB96537D0F0C8D1A8451 /* resultiterator.h */,
+				879844DA7E7E679085933F2354657C1A /* sampleiterator.h */,
+				A2034C614356C20B4A908F894ADE9C96 /* scanedg.h */,
+				1467B896964ADB302EC91A4B011BD1FA /* scanutils.h */,
+				CD1AF83165226CB3DECEAE24B93BE51E /* scrollview.h */,
+				D33B37D0C267C0B360D88DD5F743EC78 /* seam.h */,
+				9DD3500AAEB8E285224E54287E25BE24 /* search_column.h */,
+				A786CD59FC3BF62376233A7A805549AB /* search_node.h */,
+				4EA98A2EEBB4BB7533CC168FBF246060 /* search_object.h */,
+				8B02D1EAE7B4009E18086255C94D8FED /* secname.h */,
+				C5FB1BBED7AA48F72C4F6734BEF07620 /* serialis.h */,
+				2356F9E4924D68F6089CC44B5F0489E9 /* shapeclassifier.h */,
+				AF943490D1AC98CCEB417190168EAAD7 /* shapetable.h */,
+				C373010847194746E9A42AF19D244F6F /* sortflts.h */,
+				07DE6983AD6D87106C9DD0DEB8012B85 /* sorthelper.h */,
+				7AE51F4A514154E9A1ACD9385641F98D /* split.h */,
+				33A1AEDE2361325A6846DAA6E0A2ED8E /* stack.h */,
+				4ED2B78306F510850ECE9E0A7347AA38 /* statistc.h */,
+				70C3E00039936412C1A9FDEF6F2053AD /* stderr.h */,
+				06C4187CB5757EE9EBD4C67E2E36ABBC /* stepblob.h */,
+				3B8AC186C9357112C0688160C1F43AD4 /* stopper.h */,
+				00A5F28E23A1E83E366295CBF9998434 /* strcasestr.h */,
+				FAAB438DE8D5F64B4A2F585184DEBE03 /* string_32.h */,
+				941C58951E19BC91AC4EDC4E8D3F3195 /* stringrenderer.h */,
+				750F34DFE400B64789DF6CC3CD498BF2 /* strngs.h */,
+				82E05ADADD347C9B9D471CE325E6A1E0 /* strokewidth.h */,
+				CD69165AC795036F8133917A3688143A /* strtok_r.h */,
+				6833C9DEA7815766DE9E52FC6E28EC7F /* structures.h */,
+				42FBB6A2EB4FABA4F4AF1A229399C498 /* sudoku.h */,
+				B199FB336D843615EF53F092BC8B955F /* svmnode.h */,
+				B9B7C63AB6F1754AA28904D565C979D9 /* svutil.h */,
+				5AF0608E7F4025294B93FD96EE08C01E /* tabfind.h */,
+				EFA6673E87EDF7C09389495F6B7E8E91 /* tablefind.h */,
+				1B57AFB17526BD7DF868811A9DE13E99 /* tablerecog.h */,
+				8B7C9C8AFBD896D8B932CF72A4048D94 /* tabvector.h */,
+				9009622E7BE9F1813ECE62052A9A6973 /* tess_lang_mod_edge.h */,
+				33B77D83733A125383DBB5D7929FC5D6 /* tess_lang_model.h */,
+				E6F38440CAF45D0994687B8D486D22D5 /* tessbox.h */,
+				766534665D3524A14F4E8592A788F302 /* tesscallback.h */,
+				6014DB426AC358F8FA040AC492749FB2 /* tessclassifier.h */,
+				597521A25D13F8B7657CACE07957E765 /* tessdatamanager.h */,
+				E26D13EEE58EEE595554A3A2C3C2DF34 /* tessedit.h */,
+				32005EFBE8DE5F8F20150C973D118AFA /* tesseract_cube_combiner.h */,
+				F750FF619E08C59F3CCD43B93722C47B /* tesseractclass.h */,
+				F6E32BD5A32334F32DA7D53F257B778A /* tessopt.h */,
+				63AF599E50987AA97796D97EA3C0E7DC /* tessvars.h */,
+				29854679DBB033CA09D66BB05C358A41 /* textlineprojection.h */,
+				51AF3D4CC8E4A0C0F975E11687548205 /* textord.h */,
+				6EC8677EA6C7DB49BD14970D01CECF37 /* thresholder.h */,
+				E17B43B51D5F599E27A7DFBD6D235D0B /* tlog.h */,
+				DFBCE983DA7D9D3FCCF3E362AA74670A /* topitch.h */,
+				F68B4092328EEB68FC7363CDCA80DF49 /* tordmain.h */,
+				5DE1EEE2A14BB6CAF31B13F03DDEA5F6 /* tovars.h */,
+				537BE1074085955048093934C10F48E5 /* tprintf.h */,
+				28C8D9F53156CF65DE416B2694C64146 /* trainingsample.h */,
+				0A2F352D1E3AA2E2717B9B9DCB99E68F /* trainingsampleset.h */,
+				F05FFF076A08EB62FF41AF68930B2AE6 /* trie.h */,
+				C833E6F7F90C560EA046C84599BE3639 /* tuning_params.h */,
+				601E9C60DB9102A2AC29D6F89BC77584 /* underlin.h */,
+				D509762D4083F7509731566D015D7ED7 /* unichar.h */,
+				9CA89CA2E94FD5F19DF0F1CEE3238B8B /* unicharmap.h */,
+				77C350F485542BE6F732A2167C9682E1 /* unicharset.h */,
+				8C49436C511E4A0DBDF9638A3AF41826 /* unicity_table.h */,
+				3B74E056441735E11982670C490472E6 /* unicodes.h */,
+				69324699935469391731D3AC75464EF6 /* universalambigs.h */,
+				3E716B4BF9C7837A6AA13A55E85609AB /* util.h */,
+				CE1EB0F59919BF8A48FFFFC489A8C779 /* vecfuncs.h */,
+				3005C1361231520113FCF44DE7B8D87E /* version.h */,
+				0AE1CC7E5E255854245E59D0C4226C1C /* watershed.h */,
+				6E50D74820AABB60B0233550F9B04A3A /* werd.h */,
+				21BD78078B671732F48CD6E4CA06701B /* werdit.h */,
+				B5D687F62986F6EC28246CCD8E879175 /* word_altlist.h */,
+				31DB37A4C0C4CE689F7FAC341AAAA721 /* word_list_lang_model.h */,
+				48E8D262490ED33E8E8C968ADFD14912 /* word_size_model.h */,
+				7DFA5BE4D9D0956E6F68D1E5EAF2A46A /* word_unigrams.h */,
+				11FC31F6AF86481DA8F871F0CC2CC19F /* wordrec.h */,
+				F5CCB1B0073DB8C790643A797CE4D54E /* wordseg.h */,
+				DC7858A3B25951E820EC080C9D96E437 /* workingpartset.h */,
+				B8CCB129B5BBB11DD278C7D1FDBD83F8 /* xform2d.h */,
+				D4399E324EF022BA54BD2867C1705AA5 /* Frameworks */,
+			);
+			path = TesseractOCRiOS;
+			sourceTree = "<group>";
+		};
+		21FF83D38BE2E1D5499360B06000D8F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1114098A8CC4384200396BFFFA59EEB6 /* Foundation.framework */,
+				CDA52187E6FB97920A5057B75ED3DBD6 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27EF59A1FFF70750D682B4D6A9072591 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				140A4789F73EC45615510CFAF9E46CD4 /* SSKeychain.xcconfig */,
+				011FE7381F816C5EF3F73F28315D9588 /* SSKeychain-Private.xcconfig */,
+				641DDADD1DEBD49955FCF914AED23FD3 /* SSKeychain-dummy.m */,
+				F7036BB77B8E635999A80FC160F9A673 /* SSKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
+			sourceTree = "<group>";
+		};
+		3E92A39FE62DC1D1C2A7C95F4301959E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE897DC4AD919AD58DA810C75091EFFB /* Venmo-iOS-SDK.xcconfig */,
+				608E54777C075D79EE829600EFE33DA6 /* Venmo-iOS-SDK-Private.xcconfig */,
+				7E7909CB3FF28DD584A0FC468A0A04A2 /* Venmo-iOS-SDK-dummy.m */,
+				F2525E5D0E6E069F508C32317097800C /* Venmo-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Venmo-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		4E967F20699BE1D4F46AD8E243F85C12 /* Venmo-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				E0B116F629CD980DCD77E9F087AA52FF /* NSBundle+VenmoSDK.h */,
+				C5AD9B78B3F76191FBC8BABA8D17CC8F /* NSBundle+VenmoSDK.m */,
+				453A2B7B5C1B4DE595F8106193581148 /* NSDictionary+VenmoSDK.h */,
+				F18D71A7918D5B8B89CA2A5180A3FCC6 /* NSDictionary+VenmoSDK.m */,
+				E1D2F67DEABBAD49BD1697FADA7FCCC4 /* NSError+VenmoSDK.h */,
+				E300E275C1F24D4B9A171D8F5EA0038C /* NSError+VenmoSDK.m */,
+				652779A0F25EBAEC03AC4F5CAFD82CF9 /* NSString+MD5Addition.h */,
+				E54B61A8B1F4C39538E66B121DE2160A /* NSString+MD5Addition.m */,
+				765A53924482104FE0641C2CD3271348 /* NSString+VenmoSDK.h */,
+				8C8078F9AD914011915DD45A1775BCFD /* NSString+VenmoSDK.m */,
+				71EF1C509E3018B119095FE3B82B16D7 /* NSURL+VenmoSDK.h */,
+				50BA269D937BBBC2AFF12D51C4C021CA /* NSURL+VenmoSDK.m */,
+				16F60E36165C1E108DAB3B912DC3AEAB /* UIDevice+IdentifierAddition.h */,
+				32A732C44131AD388BF223AFC1B14FC3 /* UIDevice+IdentifierAddition.m */,
+				AB405A238F93A198AF88A24EE81EDFBD /* VENBase64.m */,
+				6FE406474F13AFDF5F9A60A77F62C13B /* VENBase64_Internal.h */,
+				7DA3D0B7FE8B15344B55169FED03D14D /* VENDefines_Internal.h */,
+				94371E6CDAC91F92CD855B28E336C178 /* VENErrors.h */,
+				E54E98F7D274DEE94921FCA9452E2040 /* VENErrors.m */,
+				50E67D24B93F9E4B5DE4F62849A50269 /* VENHMAC_SHA256.m */,
+				2D69D20F9EFBE7AA4A460CF4C40BBB67 /* VENHMAC_SHA256_Internal.h */,
+				722E12F0C9AA447A3049E5316CBB806B /* VENPermission.h */,
+				DA717FA050EE1D1E9F1B3FB696C0B6A0 /* VENPermission.m */,
+				CE51BC3EEC1470D396202BBD48003E0F /* VENPermissionConstants.h */,
+				1B8A896F7DE02D630153DFD356F3B2EC /* VENRequestDecoder.h */,
+				390BB396464C2F391A9A7D2FE74D4876 /* VENRequestDecoder.m */,
+				FE8D6A4A6A9CF1F11E35351835D560DB /* VENSession.h */,
+				97DBEDCBF203C9EE3A66C9CFFE1D4433 /* VENSession.m */,
+				738D2AE9BD1AE0C20746D2AC01CEFA40 /* VENTransaction+VenmoSDK.h */,
+				FDF985E55B3D76E7401AA15775A31E55 /* VENTransaction+VenmoSDK.m */,
+				ADC4401825A06411A56C84F2A940E163 /* VENURLProtocol.h */,
+				347DB9349B0ED4C373FD8963904D8647 /* VENURLProtocol.m */,
+				375950E5E8CED5F6CC373F7179993703 /* VENUser+VenmoSDK.h */,
+				6B297AB30285D078A9204F0F65C9D38C /* VENUser+VenmoSDK.m */,
+				53C414A8E1D967021D64BA4A6070189F /* Venmo.h */,
+				15966BE609ADC65FE9B4D6938BCD4499 /* Venmo.m */,
+				3E92A39FE62DC1D1C2A7C95F4301959E /* Support Files */,
+			);
+			path = "Venmo-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FF83D38BE2E1D5499360B06000D8F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6991CAAFAAE8D009F4200B3CA74FB65E /* CMDQueryStringSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				E6D046B439EEC3D44A9BD4A21F6BDB60 /* CMDQueryStringArrayTransformer.h */,
+				E2AC73314045B4C6FAA1D0FA93828E55 /* CMDQueryStringArrayTransformer.m */,
+				21A9D2798B4586CA0CEEF9F30CB24821 /* CMDQueryStringDateTransformer.h */,
+				4FB2F74FF5EE9646AC2DC6F8490AA143 /* CMDQueryStringDateTransformer.m */,
+				F66C5FA122B663369DABB0F491073805 /* CMDQueryStringNumberTransformer.h */,
+				F67E5623663502CB38C735C0B2CC825A /* CMDQueryStringNumberTransformer.m */,
+				D8E781A9D9B1B162A71E32F5DAEC9468 /* CMDQueryStringReader.h */,
+				715DA579D18A14DF5B548B0340C1AD00 /* CMDQueryStringReader.m */,
+				83AA9FA56B9B88A6F68536A5762CF226 /* CMDQueryStringSerialization.h */,
+				8922ED820735747FFEF1C0A76055B97A /* CMDQueryStringSerialization.m */,
+				E7EA2246AEAAB41F225E30A840AC2660 /* CMDQueryStringStringTransformer.h */,
+				6096EE95591ACA87CC23334A8B43670B /* CMDQueryStringStringTransformer.m */,
+				45F54CE5909E6661B606327042E03A39 /* CMDQueryStringValueTransformer.h */,
+				2F4E4CE5724D042D3A41753CC4C44F03 /* CMDQueryStringValueTransformer.m */,
+				A99DCC8262ED0599888C382716E6834F /* CMDQueryStringWriter.h */,
+				FB2D37A585A0C5B0A3AEEEC6B54CD144 /* CMDQueryStringWriter.m */,
+				1B2AF855E3E2FE66A076E72F70A745A1 /* NSString+CMDQueryStringSerialization.h */,
+				9B4078B9B63AD70FDD259DA0C5B1F9AC /* NSString+CMDQueryStringSerialization.m */,
+				A98CC6A6015D0849D6C18C1E2CFC9812 /* Support Files */,
+			);
+			path = CMDQueryStringSerialization;
+			sourceTree = "<group>";
+		};
+		6FD3E34139C991EBA686BD4A55CCB45D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F830CABFD7C5AB3A939E4B18915F47 /* Pods-acknowledgements.markdown */,
+				A5F822E59C48343778A7A0893BEB2933 /* Pods-acknowledgements.plist */,
+				D6A44D509D4E44481A5AA622EB2EB2AD /* Pods-dummy.m */,
+				B3BB5840B4BDD2DDB6F5AB1247265D75 /* Pods-resources.sh */,
+				9B0640BC6726E203B122C6A8F142E3F4 /* Pods.debug.xcconfig */,
+				A384EC3C9581E9AB1282736FB8B21690 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
+				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
+				09E05B44F7ACC4414298A19BE7CD587D /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3E34139C991EBA686BD4A55CCB45D /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9475E507CC2CDAA68EED45CC048ACE0B /* VENCore */ = {
+			isa = PBXGroup;
+			children = (
+				B481E1BAD8999CAC81751D0B94F7CD9C /* NSArray+VENCore.h */,
+				D8E7701D8D591BE54C4F646614C21098 /* NSArray+VENCore.m */,
+				07395473719BC9B5F7A843E653796A77 /* NSDictionary+VENCore.h */,
+				DF3DD8DAEE28D6486DDDBD1329EB8025 /* NSDictionary+VENCore.m */,
+				986957A4A1E12F9C7FD67E3255D56E8D /* NSError+VENCore.h */,
+				A37484257D85F3B69459E5160A595225 /* NSError+VENCore.m */,
+				B710C23FEFFBCAC91C1D6DA3C248F8A8 /* NSString+VENCore.h */,
+				5BA05DEB5A8C7A74D2F6BCF4F9D1B058 /* NSString+VENCore.m */,
+				D1CC063FCA90BB3AD2A328AFDB1C88D3 /* UIDevice+VENCore.h */,
+				C10284F2A6C6E8C2000781590D65531D /* UIDevice+VENCore.m */,
+				61F5A44B17ED0EE923FD4214DF337DB6 /* VENCore.h */,
+				416DFD09DA2E39E021372F46E68DE469 /* VENCore.m */,
+				346241F6AAF0C2B6F96C12D0C5DDD09C /* VENCreateTransactionRequest.h */,
+				F5EE4A2D9741C408F26A4A11D8A603FF /* VENCreateTransactionRequest.m */,
+				889C59AEA7D801647CE1984A4C6E5AC6 /* VENHTTP.h */,
+				E16F184BB828EA3C906AEB62EA8F5B79 /* VENHTTP.m */,
+				D6E6A58B2DC2881722EA1FB44D24AEC5 /* VENHTTPResponse.h */,
+				F67E1C83288088AD4E2DA72B07894DFD /* VENHTTPResponse.m */,
+				4A08A2691668007817A07CE8C54CE3F0 /* VENTransaction.h */,
+				92B3FBFE4F95A0562C73685D19ED4D49 /* VENTransaction.m */,
+				D88E9798630B4059BC7583FB196B7100 /* VENTransactionPayloadKeys.h */,
+				44513CCBA6BD9243EA25CE94FC422F18 /* VENTransactionTarget.h */,
+				835439CCD8021862B5DF514799A01CD5 /* VENTransactionTarget.m */,
+				5EB2162A78023B8273FBE703CC9FE396 /* VENUser.h */,
+				2358F3B3C388E239E85C05F64A87F993 /* VENUser.m */,
+				6507FAE575EC8EE6A94F018193559028 /* VENUserPayloadKeys.h */,
+				9513BA95103529DB19377C5F4380EBF0 /* Support Files */,
+			);
+			path = VENCore;
+			sourceTree = "<group>";
+		};
+		9513BA95103529DB19377C5F4380EBF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB745A091125874250A07CB3B7A4D35 /* VENCore.xcconfig */,
+				9B2AA740E935C7685AE9528B72F13133 /* VENCore-Private.xcconfig */,
+				B6FC6B7B0372775AA1ADB987CA48C082 /* VENCore-dummy.m */,
+				47DFAA847CEB9BB195637EAE85B6EDE9 /* VENCore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VENCore";
+			sourceTree = "<group>";
+		};
+		957D21951650BD50D4159A4D1D75F7AB /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				FB74AC278C6117DAE4F9FCE88FC98B3F /* SSKeychain.h */,
+				75A0A2A0384E349A64759F3AF1D8EC67 /* SSKeychain.m */,
+				AA46FB875FE4379E7B90FF83E4B0D41E /* SSKeychainQuery.h */,
+				B86E59E7FAD5FD0A28539B19B353E10D /* SSKeychainQuery.m */,
+				27EF59A1FFF70750D682B4D6A9072591 /* Support Files */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		A98CC6A6015D0849D6C18C1E2CFC9812 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E35D444B85EAA7CCF03D47C3145D3AF /* CMDQueryStringSerialization.xcconfig */,
+				8CFB37B9D7B573BE103B81AA24FC10AF /* CMDQueryStringSerialization-Private.xcconfig */,
+				2FEFBA8D1C22E4D8C6B54CF94EA10DAF /* CMDQueryStringSerialization-dummy.m */,
+				D540543F2C6DC2F4DCB756CD78344B1B /* CMDQueryStringSerialization-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CMDQueryStringSerialization";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D92FDC235321567F5F65FAFA63FE4C /* libCMDQueryStringSerialization.a */,
+				F2E868D2570FDF275338A5578801467A /* libPods.a */,
+				06D06FEC22854873A0DC74FB54D075F4 /* libSSKeychain.a */,
+				DAB81A63CF17240BE36AC14BBE1FF234 /* libVENCore.a */,
+				62606B20EE957F969BC97F0B3F40F9F8 /* libVenmo-iOS-SDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4399E324EF022BA54BD2867C1705AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B250E889720B8F14B78B1540A564CD /* TesseractOCR.framework */,
+				EECF5F23FFF0A3CE9F6ED69BE347F094 /* liblept.a */,
+				4500B0062E69EAA86DC1CB76F8756F2B /* libtesseract_all.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30C90F56DD70F117D7C1619D9DB70D35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47E1DC5CF2AE73A5D22307DE7CC516D /* NSArray+VENCore.h in Headers */,
+				80729A0974A960CC4977C826130A2EBF /* NSDictionary+VENCore.h in Headers */,
+				9725A530720A2E236B65B4D39BA7CC7B /* NSError+VENCore.h in Headers */,
+				7F2565F57863D61F712AEB9ACD8D7A51 /* NSString+VENCore.h in Headers */,
+				1B9B083988BD1B9C1D4B838130898FEA /* UIDevice+VENCore.h in Headers */,
+				B2EAEEA925AABC8036D20E97944D9C25 /* VENCore.h in Headers */,
+				0F28F3D91F2052CBDA49EE411301D98D /* VENCreateTransactionRequest.h in Headers */,
+				57F1254247F23B1E03E0872CC7952F05 /* VENHTTP.h in Headers */,
+				91695EDC12345CD9001029A7728E261F /* VENHTTPResponse.h in Headers */,
+				8C8471F6CCFE8E47A54B35E463A5813B /* VENTransaction.h in Headers */,
+				A73B0900AA6E3FB13753CFBDD13844F9 /* VENTransactionPayloadKeys.h in Headers */,
+				29A62F1FFA3381F08E4299C3E7A0FE0D /* VENTransactionTarget.h in Headers */,
+				C7D0597FC97D0A479CD3CB5B4112607F /* VENUser.h in Headers */,
+				9C1A2888048C0954BCAA53F04EE363AE /* VENUserPayloadKeys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314164C7799822E0B30B7D04AC854AA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5118C1B629D2A9B779B6D1CABC7CBF92 /* SSKeychain.h in Headers */,
+				3347F735BB8887C52EF2538DC65AC2CD /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1544D233D4157BEA329D578B95FE89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAFD07C9B13728368926BA4C1468992 /* NSBundle+VenmoSDK.h in Headers */,
+				9B8FBA7BAE34BCBBA6BDD294D9BB6F5F /* NSDictionary+VenmoSDK.h in Headers */,
+				4F68D702B742A9BFB0E30CACD650D90F /* NSError+VenmoSDK.h in Headers */,
+				8796FDDA6C3F9F44CCC3C62A40AEFB67 /* NSString+MD5Addition.h in Headers */,
+				56699DE234E7469603102F9679C761D6 /* NSString+VenmoSDK.h in Headers */,
+				469932B94149D21733E98E0076DC83CA /* NSURL+VenmoSDK.h in Headers */,
+				E431BB594AD53322C97FF53A3ECF5B30 /* UIDevice+IdentifierAddition.h in Headers */,
+				B0BF0EEB42811B1C1836B41DF395550C /* VENBase64_Internal.h in Headers */,
+				08B9380DC58832EFB42A53C9C2C12965 /* VENDefines_Internal.h in Headers */,
+				687E296A0F6F1740E88D35071F270F9A /* VENErrors.h in Headers */,
+				F5E7D36ED1E4A3E059F252346DE9ADBB /* VENHMAC_SHA256_Internal.h in Headers */,
+				A7A3A0511FD3841F1F22CE01A3F48471 /* VENPermission.h in Headers */,
+				7ACEB3577E6EA8471E079884D1797825 /* VENPermissionConstants.h in Headers */,
+				B7FB6CECDBBD9F464BE1E330E175FBFC /* VENRequestDecoder.h in Headers */,
+				163297C50ACA0C61CCDD2C11F073A8FB /* VENSession.h in Headers */,
+				0F8738244FE0A6CE695B733A06CBE88D /* VENTransaction+VenmoSDK.h in Headers */,
+				8B2DF1B412D8EAD0F00230FC9F061B32 /* VENURLProtocol.h in Headers */,
+				EDFAA16362DFE763369214D6952E5EFD /* VENUser+VenmoSDK.h in Headers */,
+				C702493380830B12CFBEDF6C05B98B38 /* Venmo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AEB6A0E3D5BDD874917D48035375F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCABC3C6B3F27BBB68A9DBD10EA4A34 /* CMDQueryStringArrayTransformer.h in Headers */,
+				031AEFD886553AB0D1EFC22453E9634E /* CMDQueryStringDateTransformer.h in Headers */,
+				F85ADB2BEE8142A90CFE90F2BA9F68DA /* CMDQueryStringNumberTransformer.h in Headers */,
+				3DE4ABA4ECF547A8C75942BEB4C0F5F8 /* CMDQueryStringReader.h in Headers */,
+				1763D726797662820BDE4FADD648B0FB /* CMDQueryStringSerialization.h in Headers */,
+				4EC73F00C08D5D271AE27F50416FEB6E /* CMDQueryStringStringTransformer.h in Headers */,
+				F444F5DBC060C36404F3A423906185C3 /* CMDQueryStringValueTransformer.h in Headers */,
+				F8E4C324516DEF57A15FCB65D95CBD1E /* CMDQueryStringWriter.h in Headers */,
+				BC5A968814C7854F29A66162F8172B83 /* NSString+CMDQueryStringSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F33F0A9659F9C6C5FEB57D8D414EC7B /* Venmo-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2504A33DAF9F67663A434FFE2482A2B1 /* Build configuration list for PBXNativeTarget "Venmo-iOS-SDK" */;
+			buildPhases = (
+				6E4CF35C6761771E43C12498ECF06D54 /* Sources */,
+				DE9EF3A26F65D8D71C7EBA8305C5FB91 /* Frameworks */,
+				8F1544D233D4157BEA329D578B95FE89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B38560FE7BA227CD013502D7C022BED /* PBXTargetDependency */,
+				FD5276DF5A17EEDB8F6A1D6A37223CCD /* PBXTargetDependency */,
+				CE8032EF33A16302671F9D941828C7B9 /* PBXTargetDependency */,
+			);
+			name = "Venmo-iOS-SDK";
+			productName = "Venmo-iOS-SDK";
+			productReference = 62606B20EE957F969BC97F0B3F40F9F8 /* libVenmo-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		87F23290E24A2EA09E56FF10C079BA28 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BE83D6AC7BED7290917612A67A44A7 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				2DB0EE4BCF53940D643FC6E70A4DAFD1 /* Sources */,
+				8EA20FE1CEADCA175B25753C46DD5161 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8E42CF72EA86BF7F82A845D5160A376 /* PBXTargetDependency */,
+				E5762A22FDA120406604F5AC357B5811 /* PBXTargetDependency */,
+				B743C9FB3F15C18F85A7E99ADF44677A /* PBXTargetDependency */,
+				B83121F07582B090CCB9E1FC2655F960 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = F2E868D2570FDF275338A5578801467A /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9C4EDFC103993D2B3F66B7239628793 /* CMDQueryStringSerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDCF1B77E68EC761685DA42925F8926 /* Build configuration list for PBXNativeTarget "CMDQueryStringSerialization" */;
+			buildPhases = (
+				4F0A1D8F851BCA3F864CE983081AE2F6 /* Sources */,
+				58FF8F92A6D2B467182A79C8F27DB097 /* Frameworks */,
+				E1AEB6A0E3D5BDD874917D48035375F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMDQueryStringSerialization;
+			productName = CMDQueryStringSerialization;
+			productReference = E2D92FDC235321567F5F65FAFA63FE4C /* libCMDQueryStringSerialization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D3FE0162BE01AA937565241FB81C2B7D /* VENCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69475E31CAA1E86ABC0C418570A414A /* Build configuration list for PBXNativeTarget "VENCore" */;
+			buildPhases = (
+				98B4FDD1AED1A98C670C787A054D7D87 /* Sources */,
+				FF37661E421E36FC0BF44E22EADBFB15 /* Frameworks */,
+				30C90F56DD70F117D7C1619D9DB70D35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA423FE03823C29D99B9076B3DB553E /* PBXTargetDependency */,
+			);
+			name = VENCore;
+			productName = VENCore;
+			productReference = DAB81A63CF17240BE36AC14BBE1FF234 /* libVENCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9971EE6C0F1A944BB489CD30654A415 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E18BF2381659E86E60D93C674FD85E4 /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				9045D216F6DADCA9820597855277C154 /* Sources */,
+				DF9E5BD1BD5D50D2221B6349AD589435 /* Frameworks */,
+				314164C7799822E0B30B7D04AC854AA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = 06D06FEC22854873A0DC74FB54D075F4 /* libSSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C4EDFC103993D2B3F66B7239628793 /* CMDQueryStringSerialization */,
+				87F23290E24A2EA09E56FF10C079BA28 /* Pods */,
+				D9971EE6C0F1A944BB489CD30654A415 /* SSKeychain */,
+				D3FE0162BE01AA937565241FB81C2B7D /* VENCore */,
+				0F33F0A9659F9C6C5FEB57D8D414EC7B /* Venmo-iOS-SDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB0EE4BCF53940D643FC6E70A4DAFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649D4F3558CA58E982E345E035AA340C /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0A1D8F851BCA3F864CE983081AE2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EE31FD5F877CD497FCB7EEB22AA0D6 /* CMDQueryStringArrayTransformer.m in Sources */,
+				AA25C7C04B7FD7C8C5DB067B57AE8A18 /* CMDQueryStringDateTransformer.m in Sources */,
+				3C9BCEDD5AB2EB3502F46405E1FFAEE3 /* CMDQueryStringNumberTransformer.m in Sources */,
+				0F493813C9E11D88AFD75194BED64826 /* CMDQueryStringReader.m in Sources */,
+				831491703698025FEAE5C5463767490B /* CMDQueryStringSerialization-dummy.m in Sources */,
+				BBB6EF0A0485CCB59AA6D2AA09EF2E01 /* CMDQueryStringSerialization.m in Sources */,
+				6B6EEC0AABAE55B528C064FBCD56B635 /* CMDQueryStringStringTransformer.m in Sources */,
+				C51E3E872831EA47F03881A7E1D87ED9 /* CMDQueryStringValueTransformer.m in Sources */,
+				D41BFFB92D96D8881A38424E544D0E62 /* CMDQueryStringWriter.m in Sources */,
+				33877562C0CC65D51251801379C5DFA8 /* NSString+CMDQueryStringSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4CF35C6761771E43C12498ECF06D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27F42DBBA8B5FA31D47796D43B68AC2 /* NSBundle+VenmoSDK.m in Sources */,
+				959DCCA2F4481C146A1EEEAE8824DE60 /* NSDictionary+VenmoSDK.m in Sources */,
+				4458B321B620BF568981972C018A07EC /* NSError+VenmoSDK.m in Sources */,
+				2EFB2C164FCF9C56AB6ECB0525CBC46F /* NSString+MD5Addition.m in Sources */,
+				0EC71C4D8910E1C81766180B052CC3A1 /* NSString+VenmoSDK.m in Sources */,
+				7AFA3A4B44FE3364A0844566C094753B /* NSURL+VenmoSDK.m in Sources */,
+				CECE7E5E67AF6DFB2B89E8DE77B55EB4 /* UIDevice+IdentifierAddition.m in Sources */,
+				AD42FB5D46FB87C6659BEB6233F23B8D /* VENBase64.m in Sources */,
+				16F8F985ECDBA67AF3BCCADCA79E02EB /* VENErrors.m in Sources */,
+				84B038D51ED7BED60B8DD8667ABFB698 /* VENHMAC_SHA256.m in Sources */,
+				20338C936DD7C1A2EDE40A0A26B560B0 /* VENPermission.m in Sources */,
+				0461D83F59B3D3BCBFDB3D27F9AE906F /* VENRequestDecoder.m in Sources */,
+				EB19179509B443B90060107686B9BB8A /* VENSession.m in Sources */,
+				474A1E66452E6C596E9FD598BC2DF8C2 /* VENTransaction+VenmoSDK.m in Sources */,
+				70F4133F45564E1C888048B3D4F205D9 /* VENURLProtocol.m in Sources */,
+				A9BCCFA02F1ADFB1B5271FEA00E3E78D /* VENUser+VenmoSDK.m in Sources */,
+				D4B86E84F83D0452728D422A077CF804 /* Venmo-iOS-SDK-dummy.m in Sources */,
+				B9BC712542D304D472631659AA3F5F88 /* Venmo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9045D216F6DADCA9820597855277C154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8F80CF2F10F4314E203DF350A01557 /* SSKeychain-dummy.m in Sources */,
+				6DF16D3BFEB7A8977036365D41ED0699 /* SSKeychain.m in Sources */,
+				7CE2BD660BE8B8A26FBCA91BC83BBD12 /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B4FDD1AED1A98C670C787A054D7D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1D493B6E29697871C471D7BF1E0D0 /* NSArray+VENCore.m in Sources */,
+				3B56984D316ED4DF9C1E1D67E4D0EBAF /* NSDictionary+VENCore.m in Sources */,
+				5E94335D7BD372CF49267C102169E6CF /* NSError+VENCore.m in Sources */,
+				93068F15ABF36B1A937C7D3415BF9B05 /* NSString+VENCore.m in Sources */,
+				C01654A95A1A72E26374600EA1CEAAA8 /* UIDevice+VENCore.m in Sources */,
+				2EF58F7213E52714F487902F8D824182 /* VENCore-dummy.m in Sources */,
+				60A213E0B39822D744D57674884B8C1C /* VENCore.m in Sources */,
+				D9B28D16D7F52D636E9044A215C531E2 /* VENCreateTransactionRequest.m in Sources */,
+				4ACDD1F7B9FB1B773E826A53B1991187 /* VENHTTP.m in Sources */,
+				848508311A6AFFE5A2C202B3112CBDE4 /* VENHTTPResponse.m in Sources */,
+				B981DAE3CF6E7951BB7BA3A42A7B4684 /* VENTransaction.m in Sources */,
+				5FE9730709FC274BC932EA7D334DFCE9 /* VENTransactionTarget.m in Sources */,
+				35660BACBAD4EEDD5732714CDF494E18 /* VENUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B38560FE7BA227CD013502D7C022BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CMDQueryStringSerialization;
+			target = A9C4EDFC103993D2B3F66B7239628793 /* CMDQueryStringSerialization */;
+			targetProxy = 176DF4090A8775518C496722EADBA39A /* PBXContainerItemProxy */;
+		};
+		8BA423FE03823C29D99B9076B3DB553E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CMDQueryStringSerialization;
+			target = A9C4EDFC103993D2B3F66B7239628793 /* CMDQueryStringSerialization */;
+			targetProxy = 105C73F90B3B04887D0DFEFB7A9CBD0E /* PBXContainerItemProxy */;
+		};
+		B743C9FB3F15C18F85A7E99ADF44677A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VENCore;
+			target = D3FE0162BE01AA937565241FB81C2B7D /* VENCore */;
+			targetProxy = 53035E97064355C0846F00E33E70EE34 /* PBXContainerItemProxy */;
+		};
+		B83121F07582B090CCB9E1FC2655F960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Venmo-iOS-SDK";
+			target = 0F33F0A9659F9C6C5FEB57D8D414EC7B /* Venmo-iOS-SDK */;
+			targetProxy = 1FCB034B06B2D415AE6308E99585E16B /* PBXContainerItemProxy */;
+		};
+		C8E42CF72EA86BF7F82A845D5160A376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CMDQueryStringSerialization;
+			target = A9C4EDFC103993D2B3F66B7239628793 /* CMDQueryStringSerialization */;
+			targetProxy = CB16E6675A9A113269971B65522C720B /* PBXContainerItemProxy */;
+		};
+		CE8032EF33A16302671F9D941828C7B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VENCore;
+			target = D3FE0162BE01AA937565241FB81C2B7D /* VENCore */;
+			targetProxy = 8A01F2AB1048FAABB0ABBC8495A5E96A /* PBXContainerItemProxy */;
+		};
+		E5762A22FDA120406604F5AC357B5811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = D9971EE6C0F1A944BB489CD30654A415 /* SSKeychain */;
+			targetProxy = 6BB7B060A2455D37CF15F4AE2CCEAE11 /* PBXContainerItemProxy */;
+		};
+		FD5276DF5A17EEDB8F6A1D6A37223CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = D9971EE6C0F1A944BB489CD30654A415 /* SSKeychain */;
+			targetProxy = CDD605C09BFB45165E43DD1ED77638D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14A512D767CE268A8F82D96CE5F62E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608E54777C075D79EE829600EFE33DA6 /* Venmo-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Venmo-iOS-SDK/Venmo-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2A55C42C6B970C5DBEB8D4CC9CFC2734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011FE7381F816C5EF3F73F28315D9588 /* SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		41DC197F1C93353F27DABA5885D6EFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0640BC6726E203B122C6A8F142E3F4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		425C43A7031BBB2E35D0E6F80016D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2AA740E935C7685AE9528B72F13133 /* VENCore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VENCore/VENCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5EA68AB56DE538CE06610FD0C833ABD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011FE7381F816C5EF3F73F28315D9588 /* SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6D1EF5EAAEADF1B7B543A8B762C75C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608E54777C075D79EE829600EFE33DA6 /* Venmo-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Venmo-iOS-SDK/Venmo-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		75B3DFE9B5BAB6E4A60DCA54F6CF6377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2AA740E935C7685AE9528B72F13133 /* VENCore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VENCore/VENCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78E947E6195E9AE551B0F5F716A3359C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A384EC3C9581E9AB1282736FB8B21690 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		87C1B4525B3EC8A2B8305DF862A2B8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFB37B9D7B573BE103B81AA24FC10AF /* CMDQueryStringSerialization-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CMDQueryStringSerialization/CMDQueryStringSerialization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3A1B1F70BBCCA0197144E66DB8B18D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADDFFCE0FB49BE5E17F0CBA6CFF2AE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFB37B9D7B573BE103B81AA24FC10AF /* CMDQueryStringSerialization-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CMDQueryStringSerialization/CMDQueryStringSerialization-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B352EEC06EA1F566BA21287662A33E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2504A33DAF9F67663A434FFE2482A2B1 /* Build configuration list for PBXNativeTarget "Venmo-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1EF5EAAEADF1B7B543A8B762C75C0C /* Debug */,
+				14A512D767CE268A8F82D96CE5F62E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A1B1F70BBCCA0197144E66DB8B18D5 /* Debug */,
+				B352EEC06EA1F566BA21287662A33E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E18BF2381659E86E60D93C674FD85E4 /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A55C42C6B970C5DBEB8D4CC9CFC2734 /* Debug */,
+				5EA68AB56DE538CE06610FD0C833ABD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69475E31CAA1E86ABC0C418570A414A /* Build configuration list for PBXNativeTarget "VENCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B3DFE9B5BAB6E4A60DCA54F6CF6377 /* Debug */,
+				425C43A7031BBB2E35D0E6F80016D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDCF1B77E68EC761685DA42925F8926 /* Build configuration list for PBXNativeTarget "CMDQueryStringSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDFFCE0FB49BE5E17F0CBA6CFF2AE54 /* Debug */,
+				87C1B4525B3EC8A2B8305DF862A2B8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BE83D6AC7BED7290917612A67A44A7 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DC197F1C93353F27DABA5885D6EFC9 /* Debug */,
+				78E947E6195E9AE551B0F5F716A3359C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

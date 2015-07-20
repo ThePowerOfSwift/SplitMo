@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "bd7ef5205143c04565122512825291b6"
+inputs: 
+- "/Users/MichaelVieth/Documents/iOS/Check2Venmo-master/Check2VenmoTests/Check2VenmoTests.swift"

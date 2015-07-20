@@ -1,0 +1,1 @@
+../../../../TesseractOCRiOS/Products/TesseractOCR.framework/Versions/A/Headers/TesseractOCR.h

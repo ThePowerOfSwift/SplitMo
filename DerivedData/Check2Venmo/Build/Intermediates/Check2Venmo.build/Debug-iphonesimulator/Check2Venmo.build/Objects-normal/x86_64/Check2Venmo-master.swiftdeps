@@ -1,0 +1,6 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "da0c4d7f07f81954a013cc6abe456444"
+inputs: 
+- !dirty "/Users/MichaelVieth/Documents/iOS/Check2Venmo-master/Check2Venmo/ViewController.swift"
+- "/Users/MichaelVieth/Documents/iOS/Check2Venmo-master/Check2Venmo/PaymentViewController.swift"
+- "/Users/MichaelVieth/Documents/iOS/Check2Venmo-master/Check2Venmo/AppDelegate.swift"
